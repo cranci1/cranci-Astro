@@ -35,10 +35,11 @@ import Card from '../components/Card.astro';
 
 
 	<section>
-		<h2>📝 Projects</h2>
+    <h2>
+      📝 <span class="projects">My Projects</span>
+    </h2>
 		<p class="small">
-			Stuff I've been working on recently! (click on top of a box to get
-			redirected to the repo/site).
+			Things I've been working on recently! (click on top of a box to get redirected to the repo/site).
 		  </p>
 	  <ul role="list" class="link-card-grid">
 		<Card
@@ -65,9 +66,12 @@ import Card from '../components/Card.astro';
     </section>
 
     <section>
-      <h3 class="text-2xl font-bold tracking-tight">
+      <h2 class="Spotify">
         🎶 Spotify Now Playing
-      </h3>
+      </h2>
+      <p class="small">
+        Will show a random song if I'm not playing anything.
+        </p>
       <div class="spotify-widget-container">
         <a
           href="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&redirect=true"
@@ -130,6 +134,22 @@ import Card from '../components/Card.astro';
     line-height: 1;
     margin-bottom: 0.5em;
   }
+
+  .Spotify {
+      background-image: linear-gradient(90deg, #4CAF50, #9ACD32);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 400%;
+      background-position: 0%;
+    }
+
+    .projects {
+      background-image: linear-gradient(90deg, #FFD700, #FFA500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 400%;
+      background-position: 0%;
+    }
 
   .text-gradient {
     background-image: linear-gradient(90deg, #3498db, #87cefa);
