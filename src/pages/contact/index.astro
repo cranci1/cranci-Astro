@@ -1,0 +1,92 @@
+---
+import Layout from './Layout.astro';
+---
+
+<Layout title="Contact - cranci.xyz">
+  <main>
+    <section class="hero-section">
+      <img class="avatar" src="turtle.png" alt="Your Avatar" />
+      <div class="hero-content">
+        <h1>Contact <span class="text-gradient">cranci</span></h1>
+      </div>
+    </section>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/#about">About Me</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#spotify">Spotify</a></li>
+        <li><a href="/contact">Contact</a></li> <!-- New Contact link -->
+      </ul>
+      <div class="nav-line"></div>
+    </nav>
+
+    <section>
+      <h2>Ways to Contact Me</h2>
+      <ul class="contact-options">
+        <li>
+          <h3>Email</h3>
+          <p>You can reach out to me via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+        </li>
+        <li>
+          <h3>Twitter</h3>
+          <p>Feel free to send me a message on Twitter: <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener noreferrer">@your_twitter_handle</a>.</p>
+        </li>
+        <li>
+          <h3>GitHub</h3>
+          <p>If you prefer GitHub, you can also contact me there: <a href="https://github.com/your_github_username" target="_blank" rel="noopener noreferrer">your_github_username</a>.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <style>
+
+main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 18px;
+		line-height: 1.6;
+	}
++
+.hero-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+
+  .hero-content {
+    flex-grow: 1;
+  }
+
+    .contact-options {
+      list-style: none;
+      padding: 0;
+    }
+
+    .contact-options li {
+      margin-bottom: 2rem;
+    }
+
+    .contact-options h3 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-options p {
+      font-size: 1.2rem;
+    }
+  </style>
+</Layout>
