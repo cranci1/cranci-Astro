@@ -1,0 +1,25 @@
+{
+    "META": {
+      "repoName": "cranci's Repo",
+      "repoIcon": "https://cdn.discordapp.com/avatars/908762694096654397/cdd1b6971f4f65d01bd8071755ad83d9.png"
+    },
+    "Other": [
+      {
+        "name": "myWaifu2D",
+        "version": "0.9.5",
+        "icon": "https://raw.githubusercontent.com/cranci1/waifu2D/main/waifu2D/Assets.xcassets/AppIcon.appiconset/1024.png",
+        "down": "https://github.com/cranci1/waifu2D/raw/main/ipa/waifu2D.ipa",
+        "description": "myWaifu2D, enjoy your waifu all in one place.",
+        "bundleID": "me.cranci.myWaifu2D",
+        "category": "Apps",
+        "screenshots": [
+          "https://cranci1.github.io/myWaifu2D/showcase/image.jpeg"
+        ],
+        "contact": {
+          "web": "https://cranci.xyz",
+          "twitter": "https://twitter.com/cranci_"
+        }
+
+      }
+    ]
+  }

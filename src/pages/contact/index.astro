@@ -5,13 +5,12 @@ import Layout from './Layout.astro';
   <Layout title="Contact - cranci.xyz">
     <main>
       <section class="hero-section">
-        <img class="avatar" src="turtle.png" alt="Your Avatar" />
+        <img class="avatar" src="turtle.png" alt="cranci" />
         <div class="hero-content">
           <h1>Hey I'm <span class="text-gradient">cranci</span> 👋</h1>
         </div>
       </section>
 
-      {/* Navigation Bar */}
       <nav class="nav-bar">
         <ul>
           <li><a href="/">Home</a></li>
@@ -31,15 +30,15 @@ import Layout from './Layout.astro';
           <div class="contact-left">
             <div class="contact-item">
               <h3>Twitter</h3>
-              <a href="https://twitter.com/cranci_" target="_blank" rel="noopener noreferrer">@cranci_</a>
+              <a class="tags" href="https://twitter.com/cranci_" target="_blank" rel="noopener noreferrer">@cranci_</a>
             </div>
             <div class="contact-item">
               <h3>Email</h3>
-              <a href="mailto:cranci@null.net">cranci@null.net</a>
+              <a class="tags" href="mailto:cranci@null.net">cranci@null.net</a>
             </div>
             <div class="contact-item">
               <h3>Discord</h3>
-              <a href="https://discord.com/users/908762694096654397">cranci</a>
+              <a class="tags" href="https://discord.com/users/908762694096654397">cranci</a>
             </div>
           </div>
         </div>
@@ -57,9 +56,15 @@ import Layout from './Layout.astro';
 		line-height: 1.6;
 	}
 
+  .tags {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1em;
+  }
+
   .small {
     margin-bottom: 0.5rem;
-    margin-top: -2em;
+    margin-top: -1.5em;
     font-size: 1rem;
     color: #718096;
   }

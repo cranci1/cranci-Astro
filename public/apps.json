@@ -1,0 +1,53 @@
+{
+  "name": "cranci's repo",
+  "identifier": "me.cranci.repo",
+  "sourceURL": "https://cranci.xyz/apps.json",
+  "apps": [
+    {
+      "name": "myWaifu2D",
+      "bundleIdentifier": "me.cranci.waifu2D",
+      "developerName": "cranci",
+      "subtitle": "The newest and greatest app around.",
+      "versions": [
+        {
+          "version": "9.7.0",
+          "date": "2023-10-29",
+          "localizedDescription": "Bug fixes.",
+          "downloadURL": "https://waifu2d.cranci.xyz/ipa/waifu2D.ipa",
+          "size": 3412
+        }
+      ],
+      "localizedDescription": "Features include:\n\n• Cool graphics\n• Top notch performance\n• Satisfying interactions",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/waifu2D/main/waifu2D/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "tintColor": "B7C3F3",
+      "downloadURL": "https://waifu2d.cranci.xyz/ipa/waifu2D.ipa",
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows you to use your photo library to set your profile image.",
+
+          "type": "faceid",
+          "usageDescription": "Allows you to use faceID to protect the app"
+        }
+      ],
+      "screenshotURLs": [
+        "https://waifu2d.cranci.xyz/showcase/1.jpeg",
+        "https://waifu2d.cranci.xyz/showcase/2.jpeg",
+        "https://waifu2d.cranci.xyz/showcase/3.jpeg",
+        "https://waifu2d.cranci.xyz/showcase/4.jpeg"
+      ],
+      "beta": true
+    }
+  ],
+  "news": [
+    {
+      "title": "Welcome to cranci's repo!",
+      "identifier": "welcome",
+      "caption": "Check out the my GitHub for more info",
+      "tintColor": "B7C3F3",
+      "url": "https://github.com/cranci1/waifu2D",
+      "date": "2050-01-02",
+      "notify": true
+    }
+  ]
+}
