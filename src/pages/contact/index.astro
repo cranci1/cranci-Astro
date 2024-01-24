@@ -37,7 +37,7 @@ import Layout from './Layout.astro';
                 </span>
                 Email
               </h3>
-              <a class="tags" href="mailto:cranci@null.net">cranci@null.net</a>
+              <a class="tags" href="mailto:cranci@null.net"><span><svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-corner-down-right"><polyline points="15 10 20 15 15 20"></polyline><path d="M4 4v7a4 4 0 0 0 4 4h12"></path></svg></span>cranci@null.net</a>
             </div>
             <div class="contact-item">
               <h3>
@@ -48,7 +48,7 @@ import Layout from './Layout.astro';
                 </span>
                 Twitter
               </h3>
-              <a class="tags" href="https://twitter.com/cranci_" target="_blank" rel="noopener noreferrer">@cranci_</a>
+              <a class="tags" href="https://twitter.com/cranci_" target="_blank" rel="noopener noreferrer"><span><svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-corner-down-right"><polyline points="15 10 20 15 15 20"></polyline><path d="M4 4v7a4 4 0 0 0 4 4h12"></path></svg></span>@cranci_</a>
             </div>
             <div class="contact-item">
               <h3>
@@ -62,7 +62,7 @@ import Layout from './Layout.astro';
                 </span>
                 Discord
               </h3>
-              <a class="tags" href="https://discord.com/users/908762694096654397">cranci</a>
+              <a class="tags" href="https://discord.com/users/908762694096654397"><span><svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-corner-down-right"><polyline points="15 10 20 15 15 20"></polyline><path d="M4 4v7a4 4 0 0 0 4 4h12"></path></svg></span>@cranci</a>
             </div>
           </div>
         </div>
@@ -162,13 +162,18 @@ import Layout from './Layout.astro';
 
     .contact-box {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around; /* Adjusted for better spacing on mobile */
+      justify-content: space-around;
     }
 
     .contact-item {
       flex-basis: calc(33.33% - 1rem);
       margin-bottom: 1.5rem;
+    }
+
+    .tags {
+      display: flex;
+      margin-left: -2em;
+      justify-content: center;
     }
 
     @media (max-width: 600px) {
