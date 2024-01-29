@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Card2 from '../components/Sec-Card.astro';
 ---
 
 <Layout title="Home · cranci.xyz">
@@ -63,7 +64,23 @@ import Card from '../components/Card.astro';
 			body="myWaifu2D but for android using java. Still in early beta."
 		/>
       </ul>
+
+    <section>
+        <h2 class="site-repo">
+          🌟 Fun Fact!
+        </h2>
+        <p class="small-2">
+          This site is open source!
+          </p>
+      <ul class="project-site">
+      <Card2
+        href="https://github.com/cranci1/cranci.xyz-Astro"
+        title="cranci.xyz"
+        body="Is the repo of this site! This site is made entirely in Astro."
+      />
+      </ul>
     </section>
+  </section>
 
     <section>
       <h2 class="Spotify">
@@ -129,6 +146,13 @@ import Card from '../components/Card.astro';
     color: #718096;
   }
 
+  .small-2 {
+    margin-bottom: 0.5rem;
+    margin-top: -1.5em;
+    font-size: 1rem;
+    color: #718096;
+  }
+
   h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -143,6 +167,14 @@ import Card from '../components/Card.astro';
       background-size: 400%;
       background-position: 0%;
     }
+
+    .site-repo {
+    background-image: linear-gradient(90deg, #FF4500, #FFA500); /* Red to Orange gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+}
 
     .projects {
       background-image: linear-gradient(90deg, #FFD700, #FFA500);
@@ -172,6 +204,12 @@ import Card from '../components/Card.astro';
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 		gap: 1rem;
 		padding: 0;
+	}
+
+  .project-site {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    padding: 0;
 	}
 
   .spotify-widget-container {
