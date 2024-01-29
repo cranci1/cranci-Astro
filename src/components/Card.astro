@@ -55,7 +55,11 @@ const { href, title, body } = Astro.props;
         background-position: 0;
         background-image: linear-gradient(90deg, #3498db, #87cefa);
     }
+
     .link-card:is(:hover, :focus-within) h2 {
         color: rgb(var(--accent-light));
+        background-image: linear-gradient(90deg, #3498db, #87cefa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 </style>
