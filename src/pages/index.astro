@@ -1,254 +1,239 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Card2 from '../components/Sec-Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Card2 from "../components/Sec-Card.astro";
 ---
 
 <Layout title="Home · cranci.xyz">
-  <main>
-    <section class="hero-section">
-      <img class="avatar" src="turtle.png" alt="cranci" />
-      <div class="hero-content">
-        <h1>Hey I'm <span class="text-gradient">cranci</span> 👋</h1>
-      </div>
-    </section>
+    <main>
+        <section class="hero-section">
+            <img class="avatar" src="turtle.png" alt="cranci" />
+            <div class="hero-content">
+                <h1>Hey I'm <span class="text-gradient">cranci</span> 👋</h1>
+            </div>
+        </section>
 
-    <nav class="nav-bar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="https://Github.com/cranci1">Github</a></li>
-      </ul>
-      <div class="nav-line"></div>
-    </nav>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://Github.com/cranci1">Github</a></li>
+            </ul>
+            <div class="nav-line"></div>
+        </nav>
 
-    <section id="about">
-      <p class="instructions">
-        I'm a 15 years old self-taught developer
-      </p>
-      <p>
-        I've started learning programming languages for the first time in 2020 and it was with a little bit of javascript and python. At the moment I'm learning Java, Swift and Astro. I also plan to learn languages like Kotlin and Typescript.
-      </p>
-    </section>
-    <section>
-      <p>I also watch anime. Anilist profile <a href="https://anilist.co/user/cranci">here</a>.</p>
-    </section>
+        <section id="about">
+            <p class="instructions">I'm a 15 years old self-taught developer</p>
+            <p>
+                I've started learning programming languages for the first time in 2020 and it was with a little bit of javascript and
+                python. At the moment I'm learning Java, Swift and Astro. I also plan to learn languages like Kotlin and Typescript.
+            </p>
+        </section>
+        <section>
+            <p>I also watch anime. Anilist profile <a href="https://anilist.co/user/cranci">here</a>.</p>
+        </section>
 
+        <section>
+            <h2>
+                📝 <span class="projects">My Projects</span>
+            </h2>
+            <p class="small">Things I've been working on recently! (click on top of a box to get redirected to the repo/site).</p>
+            <ul role="list" class="link-card-grid">
+                <Card
+                    href="https://enricozon.mom"
+                    title="Enricozon"
+                    body="Best shopping experience that you can immagine, made with some friends."
+                />
+                <Card
+                    href="https://waifu2d.cranci.xyz/"
+                    title="myWaifu2D"
+                    body="My first ever made swift app, created for fun. Pretty simple code."
+                />
+                <Card
+                    href="https://github.com/Ultramicroscope/HuTao"
+                    title="HuTao"
+                    body="Cool minecraft mod that draws a little HuTao on the screen."
+                />
+                <Card
+                    href="https://github.com/cranci1/waifu2D-android"
+                    title="myWaifu2D-Android"
+                    body="myWaifu2D but for android using java. Still in early beta."
+                />
+            </ul>
 
-	<section>
-    <h2>
-      📝 <span class="projects">My Projects</span>
-    </h2>
-		<p class="small">
-			Things I've been working on recently! (click on top of a box to get redirected to the repo/site).
-		  </p>
-	  <ul role="list" class="link-card-grid">
-		<Card
-			href="https://enricozon.mom"
-			title="Enricozon"
-			body="Best shopping experience that you can immagine, made with some friends."
-		/>
-		<Card
-			href="https://waifu2d.cranci.xyz/"
-			title="myWaifu2D"
-			body="My first ever made swift app, created for fun. Pretty simple code."
-		/>
-		<Card
-			href="https://github.com/Ultramicroscope/HuTao"
-			title="HuTao"
-			body="Cool minecraft mod that draws a little HuTao on the screen."
-		/>
-		<Card
-			href="https://github.com/cranci1/waifu2D-android"
-			title="myWaifu2D-Android"
-			body="myWaifu2D but for android using java. Still in early beta."
-		/>
-      </ul>
+            <section>
+                <h2 class="site-repo">🌟 Fun Fact!</h2>
+                <p class="small-2">This site is open source!</p>
+                <ul class="project-site">
+                    <Card2
+                        href="https://github.com/cranci1/cranci.xyz-Astro"
+                        title="cranci.xyz"
+                        body="Is the repo of this site! This site is made entirely in Astro."
+                    />
+                </ul>
+            </section>
+        </section>
 
-    <section>
-        <h2 class="site-repo">
-          🌟 Fun Fact!
-        </h2>
-        <p class="small-2">
-          This site is open source!
-          </p>
-      <ul class="project-site">
-      <Card2
-        href="https://github.com/cranci1/cranci.xyz-Astro"
-        title="cranci.xyz"
-        body="Is the repo of this site! This site is made entirely in Astro."
-      />
-      </ul>
-    </section>
-  </section>
+        <section>
+            <h2 class="Spotify">🎶 Spotify Now Playing</h2>
+            <p class="small">Will show a random song if I'm not playing anything.</p>
+            <div class="spotify-widget-container">
+                <a
+                    href="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&redirect=true"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=308acf&bar_color_cover=false"
+                        alt="Spotify GitHub Profile"
+                    />
+                </a>
+            </div>
+        </section>
+    </main>
 
-    <section>
-      <h2 class="Spotify">
-        🎶 Spotify Now Playing
-      </h2>
-      <p class="small">
-        Will show a random song if I'm not playing anything.
-        </p>
-      <div class="spotify-widget-container">
-        <a
-          href="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&redirect=true"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=308acf&bar_color_cover=false"
-            alt="Spotify GitHub Profile"
-          />
-        </a>
-      </div>
-    </section>
+    <style>
+        main {
+            margin: auto;
+            padding: 1rem;
+            width: 800px;
+            max-width: calc(100% - 2rem);
+            color: white;
+            font-size: 18px;
+            line-height: 1.6;
+        }
 
-  </main>
+        .hero-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
 
-<style>
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 1rem;
+            margin-top: 0.9em;
+        }
 
-  main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 18px;
-		line-height: 1.6;
-	}
-  
-  .hero-section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
+        .hero-content {
+            flex-grow: 1;
+        }
 
-  .avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-right: 1rem;
-    margin-top: 0.9em;
-  }
+        .instructions {
+            margin-top: 2em;
+        }
 
-  .hero-content {
-    flex-grow: 1;
-  }
+        .small {
+            margin-bottom: 0.5rem;
+            margin-top: -2em;
+            font-size: 0.875rem;
+            color: #718096;
+        }
 
-  .instructions {
-    margin-top: 2em;
-  }
+        .small-2 {
+            margin-bottom: 0.5rem;
+            margin-top: -1.5em;
+            font-size: 1rem;
+            color: #718096;
+        }
 
-  .small {
-    margin-bottom: 0.5rem;
-    margin-top: -2em;
-    font-size: 0.875rem;
-    color: #718096;
-  }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 0.5em;
+        }
 
-  .small-2 {
-    margin-bottom: 0.5rem;
-    margin-top: -1.5em;
-    font-size: 1rem;
-    color: #718096;
-  }
+        .Spotify {
+            background-image: linear-gradient(90deg, #4caf50, #9acd32);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400%;
+            background-position: 0%;
+        }
 
-  h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 0.5em;
-  }
+        .site-repo {
+            background-image: linear-gradient(90deg, #ff4500, #ffa500); /* Red to Orange gradient */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400%;
+            background-position: 0%;
+        }
 
-  .Spotify {
-      background-image: linear-gradient(90deg, #4CAF50, #9ACD32);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: 400%;
-      background-position: 0%;
-    }
+        .projects {
+            background-image: linear-gradient(90deg, #ffd700, #ffa500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400%;
+            background-position: 0%;
+        }
 
-    .site-repo {
-    background-image: linear-gradient(90deg, #FF4500, #FFA500); /* Red to Orange gradient */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-}
+        .text-gradient {
+            background-image: linear-gradient(90deg, #3498db, #87cefa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400%;
+            background-position: 0%;
+        }
 
-    .projects {
-      background-image: linear-gradient(90deg, #FFD700, #FFA500);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: 400%;
-      background-position: 0%;
-    }
+        a {
+            color: transparent;
+            background-image: linear-gradient(90deg, #3498db, #87cefa);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
 
-  .text-gradient {
-    background-image: linear-gradient(90deg, #3498db, #87cefa);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-  }
+        .link-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+            gap: 1rem;
+            padding: 0;
+        }
 
-  a {
-    color: transparent;
-    background-image: linear-gradient(90deg, #3498db, #87cefa);
-    background-clip: text; 
-    -webkit-background-clip: text;
-  }
+        .project-site {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+            padding: 0;
+        }
 
-  .link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
+        .spotify-widget-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-  .project-site {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-    padding: 0;
-	}
+        .nav-bar {
+            margin-bottom: 1rem;
+        }
 
-  .spotify-widget-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  }
+        .nav-bar ul {
+            font-size: 1, 5rem;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
 
-  .nav-bar {
-      margin-bottom: 1rem;
-    }
+        .nav-bar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            position: relative; /* Added position relative for gradient overlay */
+        }
 
-    .nav-bar ul {
-      font-size: 1,5rem;
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: space-around;
-    }
+        .nav-bar a:hover {
+            color: transparent; /* Set text color to transparent on hover */
+            background-image: linear-gradient(90deg, #3498db, #87cefa);
+            background-clip: text; /* Clip background to text */
+            -webkit-background-clip: text; /* For Safari */
+        }
 
-    .nav-bar a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    position: relative; /* Added position relative for gradient overlay */
-  }
-
-  .nav-bar a:hover {
-    color: transparent; /* Set text color to transparent on hover */
-    background-image: linear-gradient(90deg, #3498db, #87cefa);
-    background-clip: text; /* Clip background to text */
-    -webkit-background-clip: text; /* For Safari */
-  }
-
-    .nav-line {
-      width: 100%;
-      height: 2px;
-      background: linear-gradient(90deg, #3498db, #87cefa);
-    }
-
-</style>
+        .nav-line {
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, #3498db, #87cefa);
+        }
+    </style>
 </Layout>
