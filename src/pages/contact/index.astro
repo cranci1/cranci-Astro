@@ -189,7 +189,7 @@ import Layout from "./Layout.astro";
     }
 
     .contact-gradient {
-        background-image: linear-gradient(90deg, #008080, #00ced1); /* Teal gradient colors */
+        background-image: linear-gradient(90deg, #008080, #00ced1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-size: 400%;
@@ -231,14 +231,14 @@ import Layout from "./Layout.astro";
         text-decoration: none;
         color: white;
         font-weight: bold;
-        position: relative; /* Added position relative for gradient overlay */
+        position: relative;
     }
 
     .nav-bar a:hover {
-        color: transparent; /* Set text color to transparent on hover */
+        color: transparent;
         background-image: linear-gradient(90deg, #3498db, #87cefa);
-        background-clip: text; /* Clip background to text */
-        -webkit-background-clip: text; /* For Safari */
+        background-clip: text;
+        -webkit-background-clip: text;
     }
 
     .nav-line {
@@ -264,14 +264,13 @@ import Layout from "./Layout.astro";
     }
 
     @media (max-width: 600px) {
-        /* Adjustments for screens with a maximum width of 600px (typical for mobile) */
         .contact-box {
-            flex-direction: column; /* Stack items vertically on small screens */
-            align-items: center; /* Center items on small screens */
+            flex-direction: column;
+            align-items: center;
         }
 
         .contact-item {
-            flex-basis: 100%; /* Full width for each item on small screens */
+            flex-basis: 100%;
         }
     }
 
