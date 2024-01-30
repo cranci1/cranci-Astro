@@ -27,24 +27,13 @@ const { title } = Astro.props;
         --accent-dark: 49, 10, 101;
         --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), rgb(var(--accent-light)) 30%, white 60%);
     }
+
     html {
         font-family: system-ui, sans-serif;
-        background: radial-gradient(#090909, #13151a, #232325, #313030);
-        background-size: 400% 400%;
-        animation: gradient 10s ease infinite;
+        background: #13151a;
+        background-size: 224px;
     }
 
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
     code {
         font-family:
             Menlo,
