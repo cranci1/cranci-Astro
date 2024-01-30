@@ -2,9 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Card2 from "../components/Sec-Card.astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
 <Layout title="Home · cranci.xyz">
+    <SpeedInsights />
     <main>
         <section class="hero-section">
             <img class="avatar" src="turtle.png" alt="cranci" />
