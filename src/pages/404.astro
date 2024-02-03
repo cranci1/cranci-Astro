@@ -1,0 +1,69 @@
+---
+const description = "404";
+import lostAnimeGirl from "../images/404.gif";
+---
+
+<section class="container404"></section>
+<div>
+    <img width="300" height="300" alt="lost anime girl" src={lostAnimeGirl.src} />
+</div>
+<h1>{description}</h1>
+<span>It seems like you've landanded on an unknown place.</span>
+<p>
+    <a href="/">Return Home</a>
+</p>
+<style>
+    body {
+        background-color: #13151a;
+        text-align: center;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container404 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        border: 0;
+        font-size: 120px;
+        letter-spacing: 10px;
+    }
+
+    span {
+        color: teal;
+        display: block;
+        margin-top: 10px;
+    }
+
+    a {
+        color: #5960ea;
+        text-decoration: none;
+        font-size: 1.3em;
+        margin-top: 1em;
+        display: block;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 80px;
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+</style>
