@@ -7,10 +7,13 @@ import Layout from "./Layout.astro";
         <section class="hero-section">
             <img class="avatar" src="turtle.png" alt="cranci" />
             <div class="hero-content">
-                <h1>Hey I'm <span class="text-gradient">cranci</span> 👋</h1>
+                <h1 class="text-3xl font-bold mt-10">
+                    Hey I'm
+                    <span class="text-gradient">cranci</span>
+                    👋
+                </h1>
             </div>
         </section>
-
         <nav class="nav-bar">
             <ul>
                 <li><a href="/">Home</a></li>
@@ -21,8 +24,10 @@ import Layout from "./Layout.astro";
         </nav>
 
         <section>
-            <h2 class="contact-gradient">📞 Get in touch</h2>
-            <p class="small">
+            <h2 class="text-2xl font-bold tracking-tight mt-5 mb-2">
+                <span class="contact-gradient">📞 Get in touch</span>
+            </h2>
+            <p class="text-1xl text-gray-400 mb-2 leading-tight">
                 I'm always open to new opportunities and collaborations. Feel free to reach out to me via email or social media
             </p>
             <div class="contact-box">
@@ -63,8 +68,8 @@ import Layout from "./Layout.astro";
                                 class="lucide lucide-corner-down-right"
                                 ><polyline points="15 10 20 15 15 20"></polyline><path d="M4 4v7a4 4 0 0 0 4 4h12"></path></svg
                             ></span
-                        >cranci@null.net</a
-                    >
+                        >cranci@null.net
+                    </a>
                 </div>
                 <div class="contact-item">
                     <h3>
@@ -104,8 +109,8 @@ import Layout from "./Layout.astro";
                                 class="lucide lucide-corner-down-right"
                                 ><polyline points="15 10 20 15 15 20"></polyline><path d="M4 4v7a4 4 0 0 0 4 4h12"></path></svg
                             ></span
-                        >@cranci_</a
-                    >
+                        >@cranci_
+                    </a>
                 </div>
                 <div class="contact-item">
                     <h3>
@@ -148,8 +153,8 @@ import Layout from "./Layout.astro";
                                 class="lucide lucide-corner-down-right"
                                 ><polyline points="15 10 20 15 15 20"></polyline><path d="M4 4v7a4 4 0 0 0 4 4h12"></path></svg
                             ></span
-                        >@cranci</a
-                    >
+                        >@cranci
+                    </a>
                 </div>
             </div>
         </section>
@@ -165,13 +170,6 @@ import Layout from "./Layout.astro";
         color: white;
         font-size: 18px;
         line-height: 1.6;
-    }
-
-    .small {
-        margin-bottom: 0.5rem;
-        margin-top: -1.5em;
-        font-size: 1rem;
-        color: #718096;
     }
 
     .hero-section {
@@ -220,7 +218,7 @@ import Layout from "./Layout.astro";
     }
 
     .nav-bar ul {
-        font-size: 1, 5rem;
+        font-size: 1.2rem;
         list-style: none;
         padding: 0;
         display: flex;
@@ -287,11 +285,12 @@ import Layout from "./Layout.astro";
     .contact-item a {
         color: #3498db;
         text-decoration: none;
-        transition: color 0.3s ease;
     }
 
     .contact-item a:hover {
-        color: #3498db;
+        background-image: linear-gradient(90deg, #3498db, #87cefa);
+        background-clip: text;
+        -webkit-background-clip: text;
     }
 
     .contact-item p {
