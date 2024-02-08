@@ -4,10 +4,10 @@ export default {
     theme: {
         extend: {
             fontSize: {
-                "1.5xl": "1.5rem",
+                "1.1xl": "1.1rem",
             },
             fontSize: {
-                "1.1xl": "1.1rem",
+                "1.2xl": "1.2rem",
             },
         },
     },
