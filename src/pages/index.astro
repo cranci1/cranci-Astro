@@ -92,23 +92,23 @@ import SpeedInsights from "@vercel/speed-insights/astro";
         </section>
 
         <section id="Spotify">
-            <h2 class="text-1.5xl font-bold tracking-tight mt-5">
+            <h2 class="text-2xl font-bold tracking-tight mt-5">
                 <span class="Spotify">🎶 Spotify Now Playing</span>
             </h2>
+            <p class="mb-2 text-sm text-gray-400">Will show the last song I played if I'm not playing anything.</p>
+            <div class="spotify-widget-container">
+                <a
+                    href="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&redirect=true"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=308acf&bar_color_cover=false"
+                        alt="Spotify GitHub Profile"
+                    />
+                </a>
+            </div>
         </section>
-        <p class="mb-2 text-sm text-gray-400">Will show the last song I played if I'm not playing anything.</p>
-        <div class="spotify-widget-container">
-            <a
-                href="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&redirect=true"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <img
-                    src="https://spotify-github-profile.vercel.app/api/view?uid=31pmruh3bpkzpxz23vawcpop2ivi&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=308acf&bar_color_cover=false"
-                    alt="Spotify GitHub Profile"
-                />
-            </a>
-        </div>
     </main>
 </Layout>
 
