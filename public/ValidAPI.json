@@ -1,8 +1,14 @@
 {
   "supported": {
-      "pic.re": true,
-      "waifu.it": true,
-      "kyoko": true,
-      "Purr": true
+    "Purr": true,
+    "kyoko": false,
+    "NekoBot": true,
+    "nekos.moe": true,
+    "Nekos api": true,
+    "nekos.best": true,
+    "waifu.pics": true,
+    "waifu.it": true,
+    "waifu.im": true,
+    "pic.re": true
   }
 }
