@@ -2,7 +2,7 @@
   "supported": {
       "pic.re": true,
       "waifu.it": true,
-      "kyoko": false,
-      "Purr": false
+      "kyoko": true,
+      "Purr": true
   }
 }
