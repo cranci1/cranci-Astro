@@ -1,7 +1,7 @@
 {
   "supported": {
     "Purr": true,
-    "m-sfw api": true,
+    "n-sfw api": true,
     "kyoko": false,
     "NekoBot": true,
     "nekos.moe": true,
