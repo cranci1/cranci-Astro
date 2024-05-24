@@ -9,7 +9,7 @@
     "Nekos api": true,
     "nekos.best": true,
     "waifu.pics": true,
-    "waifu.it": true,
+    "waifu.it": false,
     "waifu.im": true,
     "pic.re": true
   }
