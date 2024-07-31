@@ -1,6 +1,6 @@
 ---
 interface Props {
-    repo: string;
+  repo: string;
 }
 
 const { repo } = Astro.props;
@@ -8,147 +8,123 @@ const { repo } = Astro.props;
 let data = null;
 
 async function fetchRepoData() {
-    const response = await fetch(`https://api.github.com/repos/${repo}`);
-    data = await response.json();
+  const response = await fetch(`https://api.github.com/repos/${repo}`);
+  data = await response.json();
 }
 
 await fetchRepoData();
 
-function getLanguageColor(language) {
-    const colors = {
-        TypeScript: "#2B7489",
-        JavaScript: "#F1E05A",
-        Kotlin: "#CF9FFF",
-        HTML: "#DA351E",
-        Java: "#B07219",
-        Python: "#3572A5",
-        Swift: "#EA392B",
-        default: "#ccc"
-    };
+const languageColors = {
+  TypeScript: "#2B7489",
+  JavaScript: "#F1E05A",
+  Kotlin: "#CF9FFF",
+  HTML: "#DA351E",
+  Java: "#B07219",
+  Python: "#3572A5",
+  Swift: "#EA392B",
+  default: "#ccc"
+};
 
-    return colors[language] || colors.default;
-}
+const languageColor = data ? (languageColors[data.language] || languageColors.default) : languageColors.default;
 ---
 
+<li class="card">
+  {data ? (
+    <a href={data.html_url} target="_blank" rel="noopener noreferrer" class="card-link">
+      <div class="card-content">
+        <div class="card-header">
+          <img src={data.owner.avatar_url} alt={data.owner.login} class="avatar" />
+          <h2 class="repo-name">{data.name}</h2>
+        </div>
+        <p class="description">{data.description}</p>
+        <div class="footer">
+          <span class="language">
+            <span class="language-color" style={`background-color: ${languageColor};`}></span>
+            {data.language}
+          </span>
+          <span class="stars">⭐ {data.stargazers_count}</span>
+        </div>
+      </div>
+    </a>
+  ) : (
+    <p>Loading...</p>
+  )}
+</li>
+
 <style>
-    .projects {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        color: white;
-    }
+  .card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    list-style: none;
+  }
 
-    .link-card {
-        background-color: #282828;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: inherit;
-        position: relative;
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
 
-    .link-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    }
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
 
-    .header {
-        display: flex;
-        align-items: center;
-        padding: 16px;
-        position: relative;
-    }
+  .card-content {
+    padding: 16px;
+  }
 
-    .avatar {
-        border-radius: 50%;
-        width: 24px;
-        height: 24px;
-        margin-right: 8px;
-    }
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
 
-    .info {
-        flex-grow: 1;
-    }
+  .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
 
-    .owner {
-        margin: 0;
-        font-size: 12px;
-        color: #888;
-    }
+  .repo-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+  }
 
-    .owner-container {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        top: 8px;
-        left: 8px;
-    }
+  .description {
+    margin: 0 0 16px;
+    font-size: 14px;
+    color: #a0a0a0;
+    line-height: 1.4;
+  }
 
-    h2 {
-        margin: 20px 0 0px;
-        font-size: 18px;
-        color: white;
-    }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #a0a0a0;
+  }
 
-    .description {
-        margin: 0;
-        font-size: 14px;
-        color: #ccc;
-    }
+  .language {
+    display: flex;
+    align-items: center;
+  }
 
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        padding: 16px;
-        background-color: #1f1f1f;
-        font-size: 14px;
-    }
+  .language-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+  }
 
-    .language {
-        display: flex;
-        align-items: center;
-    }
-
-    .language-color {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 8px;
-    }
-
-    .stars {
-        color: #ffab00;
-    }
+  .stars {
+    display: flex;
+    align-items: center;
+  }
 </style>
-
-<div class="projects">
-    <li class="link-card">
-        {data ? (
-            <a href={data.html_url} target="_blank" rel="noopener noreferrer">
-                <div class="header">
-                    <div class="owner-container">
-                        <img src={data.owner.avatar_url} alt={data.owner.login} class="avatar" />
-                        <p class="owner">{data.owner.login}</p>
-                    </div>
-                    <div class="info">
-                        <h2>{data.name}</h2>
-                        <p class="description">{data.description}</p>
-                    </div>
-                </div>
-                <div class="footer">
-                    <span class="language">
-                        <span class="language-color" style={`background-color: ${getLanguageColor(data.language)};`}></span>
-                        {data.language}
-                    </span>
-                    <span class="stars">⭐ {data.stargazers_count}</span>
-                </div>
-            </a>
-        ) : (
-            <p>Loading...</p>
-        )}
-    </li>
-</div>
