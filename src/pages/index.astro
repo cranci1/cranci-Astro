@@ -160,9 +160,8 @@ import SpeedInsights from "@vercel/speed-insights/astro";
 
     .link-card-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-        gap: 1rem;
-        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px; /* Adjust the gap between cards as needed */
     }
 
     .project-site {
@@ -208,5 +207,12 @@ import SpeedInsights from "@vercel/speed-insights/astro";
         height: 2px;
         background: linear-gradient(90deg, #3498db, #87cefa);
     }
+
+    @media (max-width: 768px) {
+        .link-card-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
 </style>
 <SpeedInsights />
