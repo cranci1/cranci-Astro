@@ -7,13 +7,13 @@
     "website": "https://github.com/cranci1",
     "tintColor": "#392D7D",
     "featuredApps": [
-      "me.cranci.ryu",
+      "me.cranci.Ryu",
       "com.example.anotherapp"
     ],
     "apps": [
       {
         "name": "Ryu",
-        "bundleIdentifier": "me.cranci.ryu",
+        "bundleIdentifier": "me.cranci.Ryu",
         "developerName": "cranci",
         "subtitle": "A simple way to enjoy and watch anime on iOS",
         "localizedDescription": "",
