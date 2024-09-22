@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import SpeedInsights from "@vercel/speed-insights/astro";
-import "../styles/nav-bar.css";
+import "./nav-bar.css";
 ---
 
 <Layout title="Home · cranci.xyz">
@@ -35,7 +35,7 @@ import "../styles/nav-bar.css";
         </section>
         <section>
             <p class="text-1xl text-white leading-relaxed mt-4">
-                I have an Anilist profile so if you want by <a href="https://anilist.co/user/cranci">clicking here</a> you can see all the animes 
+                I have an Anilist profile so if you want by <a class="coolblue" href="https://anilist.co/user/cranci">clicking here</a> you can see all the animes 
                 I've been watching.
             </p>
         </section>
@@ -145,12 +145,12 @@ import "../styles/nav-bar.css";
         background-position: 0%;
     }
 
-    a {
+    .coolblue {
         color: #3498db;
         text-decoration: none;
     }
 
-    a:hover {
+    .coolblue:hover {
         color: transparent;
         background-image: linear-gradient(90deg, #3498db, #87cefa);
         background-clip: text;
@@ -160,7 +160,7 @@ import "../styles/nav-bar.css";
     .link-card-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 16px; /* Adjust the gap between cards as needed */
+        gap: 16px;
     }
 
     .project-site {
@@ -174,12 +174,5 @@ import "../styles/nav-bar.css";
         justify-content: center;
         align-items: center;
     }
-
-    @media (max-width: 768px) {
-        .link-card-grid {
-            grid-template-columns: 1fr;
-        }
-    }
 </style>
-
 <SpeedInsights />
