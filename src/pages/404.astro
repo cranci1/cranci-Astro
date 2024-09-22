@@ -2,11 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import lostAnimeGirl from "../images/404.gif";
 import Logo from "../images/turtle.png";
-import "../styles/nav-bar.css";
-const description = "404";
+import "./styles/nav-bar.css";
 ---
 
-<Layout title="Home · cranci.xyz">
+<Layout title="404 · cranci.xyz">
     <main>
         <section class="hero-section">
             <img class="avatar" src={Logo.src} alt="cranci" />
@@ -32,7 +31,7 @@ const description = "404";
             <div>
                 <img width="300" height="300" alt="lost anime girl" src={lostAnimeGirl.src} />
             </div>
-            <h1 class="text-violet-300">{description}</h1>
+            <h1 class="text-violet-300">404</h1>
             <span class="text-center">It seems like you've landanded on an unknown place.</span>
             <p class="mt-4">
                 <a href="/">Return Home</a>
