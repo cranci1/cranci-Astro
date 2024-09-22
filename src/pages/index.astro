@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import SpeedInsights from "@vercel/speed-insights/astro";
+import "../styles/nav-bar.css";
 ---
 
 <Layout title="Home · cranci.xyz">
@@ -174,44 +175,11 @@ import SpeedInsights from "@vercel/speed-insights/astro";
         align-items: center;
     }
 
-    .nav-bar {
-        margin-bottom: 1rem;
-    }
-
-    .nav-bar ul {
-        font-size: 1.2rem;
-        list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .nav-bar a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        position: relative;
-    }
-
-    .nav-bar a:hover {
-        color: transparent;
-        background-image: linear-gradient(90deg, #3498db, #87cefa);
-        background-clip: text;
-        -webkit-background-clip: text;
-    }
-
-    .nav-line {
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(90deg, #3498db, #87cefa);
-    }
-
     @media (max-width: 768px) {
         .link-card-grid {
             grid-template-columns: 1fr;
         }
     }
-
 </style>
 
 <SpeedInsights />
