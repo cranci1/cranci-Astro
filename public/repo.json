@@ -1,0 +1,143 @@
+{
+    "name": "cranci's Repo",
+    "subtitle": "All the apps made by me here.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://cdn.discordapp.com/avatars/908762694096654397/bce73d31ae314253b07311d6f37d6f65.png?size=4096",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://github.com/cranci1",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+        "me.cranci.ryu",
+        "com.example.anotherapp"
+    ],
+    "apps": [
+        {
+            "name": "Ryu",
+            "bundleIdentifier": "me.cranci.ryu",
+            "developerName": "cranci1",
+            "subtitle": "A simple way to enjoy anime on iOS",
+            "localizedDescription": "Ryu is an iOS streaming app to watch anime for free in different languages.",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
+            "tintColor": "#008080",
+            "screenshots": [
+                "https://example.com/myapp_portrait_screenshot1.png",
+                "https://example.com/myapp_portrait_screenshot2.png",
+                {
+                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
+                    "width": 2556,
+                    "height": 1179
+                }
+            ],
+            "versions": [
+                {
+                    "version": "1.4.1",
+                    "date": "2024-05-01T09:00:00-08:00",
+                    "size": 5590000,
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.0/AnimeLounge.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+                    "NSCameraUsageDescription": "App uses camera to take photos.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
+                }
+            }
+        },
+        {
+            "name": "Another Example App",
+            "bundleIdentifier": "com.example.anotherapp",
+            "developerName": "Example Developer",
+            "subtitle": "Another awesome app.",
+            "localizedDescription": "This is another awesome app only available on AltStore.",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
+            "tintColor": "#3660A2",
+            "screenshots": {
+                "iphone": [
+                    "https://example.com/anotherapp_portrait_1.png",
+                    "https://example.com/anotherapp_portrait_2.png",
+                    {
+                        "imageURL": "https://example.com/anotherapp_landscape.png",
+                        "width": 2556,
+                        "height": 1179
+                    }
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
+                        "width": 1668,
+                        "height": 2388
+                    },
+                    {
+                        "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
+                        "width": 2388,
+                        "height": 1668
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2022-06-21T09:00:00-08:00",
+                    "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
+                    "localizedDescription": "Bug fixes and performance improvements.",
+                    "size": 81514,
+                    "minOSVersion": "13.0"
+                },
+                {
+                    "version": "1.1",
+                    "date": "2022-04-15T10:00:00-08:00",
+                    "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
+                    "localizedDescription": "New features!",
+                    "size": 81364,
+                    "minOSVersion": "13.0",
+                    "maxOSVersion": "16.3"
+                },
+                {
+                    "version": "1.0",
+                    "date": "2022-02-02T07:00:00-08:00",
+                    "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
+                    "localizedDescription": "Initial release.",
+                    "size": 79821
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.healthkit",
+                    "com.apple.developer.game-center"
+                ],
+                "privacy": {
+                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "New Feature Announcement",
+            "identifier": "new_feature",
+            "caption": "Introducing a new feature in AltStore!",
+            "date": "2023-03-15",
+            "tintColor": "#5CA399",
+            "imageURL": "https://example.com/new_feature_image.png",
+            "notify": true,
+            "url": "https://example.com/new_feature_details"
+        },
+        {
+            "title": "App Update Available",
+            "identifier": "app_update",
+            "caption": "An update is available for My Example App.",
+            "date": "2023-03-10T10:00:00-07:00",
+            "tintColor": "#3660A2",
+            "imageURL": "https://example.com/app_update_image.png",
+            "notify": false,
+            "appID": "com.example.myapp"
+        }
+    ]
+}
