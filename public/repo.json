@@ -1,143 +1,92 @@
 {
-    "name": "cranci's Repo",
-    "subtitle": "All the apps made by me here.",
-    "description": "Welcome to my source! Here you'll find all of my apps.",
-    "iconURL": "https://cdn.discordapp.com/avatars/908762694096654397/bce73d31ae314253b07311d6f37d6f65.png?size=4096",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-    "website": "https://github.com/cranci1",
-    "tintColor": "#4185A9",
+    "name": "atpugvaraa's repo",
+    "subtitle": "Auto-update repo for AltStore and ESign",
+    "description": "Welcome to my repo! Here you'll find all of my apps.",
+    "iconURL": "https://cdn.discordapp.com/attachments/1266223680908955698/1266623192936611880/cisum.jpg?ex=66a5d245&is=66a480c5&hm=ef6bab89c46d102842af30805165ccbf2a334b56deb0271c273f0fe8de9830c8&",
+    "headerURL": "",
+    "website": "https://atpugvaraa.github.io/cisum",
+    "tintColor": "#F92D48",
     "featuredApps": [
-        "me.cranci.ryu",
-        "com.example.anotherapp"
+        "atpugvaraa.cisum"
     ],
     "apps": [
         {
-            "name": "Ryu",
-            "bundleIdentifier": "me.cranci.ryu",
-            "developerName": "cranci1",
-            "subtitle": "A simple way to enjoy anime on iOS",
-            "localizedDescription": "Ryu is an iOS streaming app to watch anime for free in different languages.",
-            "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
-            "tintColor": "#008080",
+            "name": "cisum",
+            "bundleIdentifier": "atpugvaraa.cisum",
+            "developerName": "Aarav Gupta",
+            "subtitle": "An awesome app to stream music for free without ads.",
+            "localizedDescription": "This is an awesome app only available on AltStore/ESign right now.",
+            "iconURL": "https://cdn.discordapp.com/attachments/1266223680908955698/1266623192936611880/cisum.jpg?ex=66a5d245&is=66a480c5&hm=ef6bab89c46d102842af30805165ccbf2a334b56deb0271c273f0fe8de9830c8&",
+            "tintColor": "#F92D48",
             "screenshots": [
-                "https://example.com/myapp_portrait_screenshot1.png",
-                "https://example.com/myapp_portrait_screenshot2.png",
-                {
-                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-                    "width": 2556,
-                    "height": 1179
-                }
+                "https://example.com/cisum_screenshot1.png",
+                "https://example.com/cisum_screenshot2.png"
             ],
             "versions": [
                 {
-                    "version": "1.4.1",
-                    "date": "2024-05-01T09:00:00-08:00",
-                    "size": 5590000,
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.0/AnimeLounge.ipa",
-                    "localizedDescription": "New features and bug fixes.",
-                    "minOSVersion": "12.0"
+                    "version": "Beta 6",
+                    "date": "2024-07-29T00:00:00-00:00",
+                    "size": 6228147,
+                    "downloadURL": "https://github.com/atpugvaraa/cisum/releases/download/29%2F07%2F24/cisum-beta-6.ipa",
+                    "localizedDescription": "Beta-6\nThis is the sixth beta:\nAdded a much subtler background for the player with accurate colorpicker.\nAdded recent searches to make it easier.\nAdded the ability to search without pressing enter.\nNow you can go out of profile view easily.",
+                    "minOSVersion": "16.0"
+                },
+                {
+                    "version": "Beta 5",
+                    "date": "2024-07-27T00:00:00-00:00",
+                    "size": 6154232,
+                    "downloadURL": "https://github.com/atpugvaraa/cisum/releases/download/27%2F07%2F24/cisum-beta-5.ipa",
+                    "localizedDescription": "This is the fifth beta of cisum that contains the addition of user profiles.\nThis beta also introduces background playback (courtesy: @SwiftDev12/@mattycbtw, Let me use his account to create the ipa file.)",
+                    "minOSVersion": "16.0"
+                },
+                {
+                    "version": "Beta 4",
+                    "date": "2024-07-24T00:00:00-00:00",
+                    "size": 7474894,
+                    "downloadURL": "https://github.com/atpugvaraa/cisum/releases/download/24%2F07%2F24/cisum-beta-4.ipa",
+                    "localizedDescription": "This is the fourth beta that contains some changes to the music progress slider and the volume slider, making them infinitely better!!!",
+                    "minOSVersion": "16.0"
+                },
+                {
+                    "version": "Beta 3",
+                    "date": "2024-07-23T00:00:00-00:00",
+                    "size": 7474218,
+                    "downloadURL": "https://github.com/atpugvaraa/cisum/releases/download/23%2F07%2F24/cisum-beta-3.ipa",
+                    "localizedDescription": "This is the third beta with some more fixes to the Gradient Background of the player and random animations and code refactor.",
+                    "minOSVersion": "16.0"
+                },
+                {
+                    "version": "Beta 2",
+                    "date": "2024-07-23T00:00:00-00:00",
+                    "size": 7472509,
+                    "downloadURL": "https://github.com/atpugvaraa/cisum/releases/download/23%2F07%2F24/cisum-beta-2.ipa",
+                    "localizedDescription": "Latest beta with fixes\n\niOS 16.x stll not supported. (will work on it once iOS 17+ version is completed)",
+                    "minOSVersion": "16.0"
+                },
+                {
+                    "version": "Beta 1",
+                    "date": "2024-07-19T00:00:00-00:00",
+                    "size": 7451812,
+                    "downloadURL": "https://github.com/atpugvaraa/cisum/releases/download/19%2F07%2F24/cisum-beta-1.ipa",
+                    "localizedDescription": "Initial release.\nThere will be many many bugs that i will be fixing slowly but you guys can try this out and share your thoughts and suggestions please.\n\nI will try to add the ones which i think are good and i can make.\nMany features like playlists and albums are not present as i am still working on them."
                 }
             ],
             "appPermissions": {
-                "entitlements": [
-                    "com.apple.security.application-groups",
-                    "com.apple.developer.siri"
-                ],
-                "privacy": {
-                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
-                    "NSCameraUsageDescription": "App uses camera to take photos.",
-                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
-                }
-            }
-        },
-        {
-            "name": "Another Example App",
-            "bundleIdentifier": "com.example.anotherapp",
-            "developerName": "Example Developer",
-            "subtitle": "Another awesome app.",
-            "localizedDescription": "This is another awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
-            "tintColor": "#3660A2",
-            "screenshots": {
-                "iphone": [
-                    "https://example.com/anotherapp_portrait_1.png",
-                    "https://example.com/anotherapp_portrait_2.png",
-                    {
-                        "imageURL": "https://example.com/anotherapp_landscape.png",
-                        "width": 2556,
-                        "height": 1179
-                    }
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
-                        "width": 1668,
-                        "height": 2388
-                    },
-                    {
-                        "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
-                        "width": 2388,
-                        "height": 1668
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "1.2",
-                    "date": "2022-06-21T09:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
-                    "localizedDescription": "Bug fixes and performance improvements.",
-                    "size": 81514,
-                    "minOSVersion": "13.0"
-                },
-                {
-                    "version": "1.1",
-                    "date": "2022-04-15T10:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
-                    "localizedDescription": "New features!",
-                    "size": 81364,
-                    "minOSVersion": "13.0",
-                    "maxOSVersion": "16.3"
-                },
-                {
-                    "version": "1.0",
-                    "date": "2022-02-02T07:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
-                    "localizedDescription": "Initial release.",
-                    "size": 79821
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.developer.healthkit",
-                    "com.apple.developer.game-center"
-                ],
-                "privacy": {
-                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
-                }
+                "entitlements": [],
+                "privacy": {}
             }
         }
     ],
     "news": [
         {
-            "title": "New Feature Announcement",
-            "identifier": "new_feature",
-            "caption": "Introducing a new feature in AltStore!",
-            "date": "2023-03-15",
-            "tintColor": "#5CA399",
-            "imageURL": "https://example.com/new_feature_image.png",
+            "title": "Beta 6 Release",
+            "identifier": "beta_6_release",
+            "caption": "New beta version of cisum is now available!",
+            "date": "2024-07-29",
+            "tintColor": "#F92D48",
+            "imageURL": "https://example.com/cisum_beta6_image.png",
             "notify": true,
-            "url": "https://example.com/new_feature_details"
-        },
-        {
-            "title": "App Update Available",
-            "identifier": "app_update",
-            "caption": "An update is available for My Example App.",
-            "date": "2023-03-10T10:00:00-07:00",
-            "tintColor": "#3660A2",
-            "imageURL": "https://example.com/app_update_image.png",
-            "notify": false,
-            "appID": "com.example.myapp"
+            "appID": "atpugvaraa.cisum"
         }
     ]
 }
