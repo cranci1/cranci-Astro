@@ -37,7 +37,7 @@
                 "downloadURL": "https://myapp.com/myapp-1.0.ipa",
                 "size": 79821,
                 "minOSVersion": "16.0"
-              },
+              }
             ],
             "appPermissions": {
                 "entitlements": [
