@@ -38,7 +38,7 @@
                 "size": 79821,
                 "minOSVersion": "16.0"
               },
-            ]
+            ],
             "appPermissions": {
                 "entitlements": [
                     "com.apple.developer.healthkit",
