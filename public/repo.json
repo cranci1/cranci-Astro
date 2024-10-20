@@ -28,7 +28,8 @@
       ],
       "appPermissions": {
         "privacy": {
-          "NSLocalNetworkUsageDescription": "Required to cast Media on your devices"
+          "NSLocalNetworkUsageDescription": "Required to cast Media on your devices",
+          "NSUserNotificationUsageDescription": "Required to send notifications for new Episodes"
         }
       }
     },
@@ -38,7 +39,7 @@
       "developerName": "cranci",
       "subtitle": "A simple way to enjoy anime art",
       "localizedDescription": "A simple way to enjoy anime art",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/AnimeGen/refs/heads/main/AnimeGen/Assets.xcassets/AppIcon.appiconset/04C0C479-EBC2-4BC3-98F4-89DA7AAEA2F5.png",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/AnimeGen/refs/heads/main/AnimeGen/Assets.xcassets/AppIcon.appiconset/04C0C479-EBC2-4BC3-98F4-89DA7AAEA2F5-1.png",
       "tintColor": "#7F00FF",
       "category": "entertainment",
       "versions": [
@@ -63,7 +64,7 @@
       "developerName": "cranci",
       "subtitle": "A mobile client for the cobalt api",
       "localizedDescription": "A mobile client for the cobalt api",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/Osmium/refs/heads/main/Osmium/Osmium/Assets.xcassets/Utility/Image.imageset/49E8AE71-134D-490A-8493-7623BE00697C.png",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/Osmium/refs/heads/main/Osmium/Osmium/Assets.xcassets/AppIcon.appiconset/180x180.png",
       "tintColor": "#FFA500",
       "category": "utilities",
       "versions": [
@@ -72,7 +73,7 @@
           "date": "2024-10-20T00:30:00-04:00",
           "localizedDescription": "Update to the latest cobalt API update",
           "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.5/Osmium.ipa",
-          "size": 5840000,
+          "size": 208000,
           "minOSVersion": "14.0"
         }
       ],
