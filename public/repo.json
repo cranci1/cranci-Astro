@@ -31,6 +31,57 @@
           "NSLocalNetworkUsageDescription": "Required to cast Media on your devices"
         }
       }
+    },
+    {
+      "name": "AnimeGen",
+      "bundleIdentifier": "me.cranci.animegen",
+      "developerName": "cranci",
+      "subtitle": "A simple way to enjoy anime art",
+      "localizedDescription": "A simple way to enjoy anime art",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/AnimeGen/refs/heads/main/AnimeGen/Assets.xcassets/AppIcon.appiconset/04C0C479-EBC2-4BC3-98F4-89DA7AAEA2F5.png",
+      "tintColor": "#7F00FF",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2024-09-26T00:30:00-04:00",
+          "localizedDescription": "Bug Fixes, this is the update brach from TestFlight",
+          "downloadURL": "https://github.com/cranci1/AnimeGen/releases/download/v2.0.1/AnimeGen.ipa",
+          "size": 4590000,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Required to save Images"
+        }
+      }
+    },
+    {
+      "name": "Osmium",
+      "bundleIdentifier": "me.cranci.osmium",
+      "developerName": "cranci",
+      "subtitle": "A mobile client for the cobalt api",
+      "localizedDescription": "A mobile client for the cobalt api",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/Osmium/refs/heads/main/Osmium/Osmium/Assets.xcassets/Utility/Image.imageset/49E8AE71-134D-490A-8493-7623BE00697C.png",
+      "tintColor": "#FFA500",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.5",
+          "date": "2024-10-20T00:30:00-04:00",
+          "localizedDescription": "Update to the latest cobalt API update",
+          "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.5/Osmium.ipa",
+          "size": 5840000,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Required to save Images",
+          "NSUserNotificationUsageDescription": "Required to send notifications on download"
+        }
+      }
     }
   ]
 }
