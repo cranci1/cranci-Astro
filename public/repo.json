@@ -1,0 +1,82 @@
+{
+  "name": "cranci's repo",
+  "identifier": "cranci",
+  "subtitle": "A full repo with all my apps",
+  "description": "A full repo with all my apps",
+  "website": "https://github.com/cranci1",
+  "iconURL": "https://avatars.githubusercontent.com/u/100066266?u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
+  "tintColor": "#93b5e1",
+  "apps": [
+    {
+      "name": "Ryu",
+      "bundleIdentifier": "me.cranci.ryu",
+      "developerName": "cranci",
+      "subtitle": "A simple way to enjoy and watch anime",
+      "localizedDescription": "A simple way to enjoy and watch anime",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
+      "tintColor": "#008080",
+      "category": "entertainment",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/chat.png",
+            "width": 1284,
+            "height": 2778
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/plugins.png",
+            "width": 1284,
+            "height": 2778
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/profile.png",
+            "width": 1284,
+            "height": 2778
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/settings.png",
+            "width": 1284,
+            "height": 2778
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/chat.png",
+            "width": 1000,
+            "height": 692
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/plugins.png",
+            "width": 1000,
+            "height": 692
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/profile.png",
+            "width": 1000,
+            "height": 692
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/settings.png",
+            "width": 1000,
+            "height": 692
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.5",
+          "date": "2024-10-12T00:30:00-04:00",
+          "localizedDescription": "Lot of things",
+          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.5/Ryu.ipa",
+          "size": 5840000,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Required to cast Media on your devices"
+        }
+      }
+    }
+  ]
+}
