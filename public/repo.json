@@ -16,52 +16,6 @@
       "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
       "tintColor": "#008080",
       "category": "entertainment",
-      "screenshots": {
-        "iphone": [
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/chat.png",
-            "width": 1284,
-            "height": 2778
-          },
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/plugins.png",
-            "width": 1284,
-            "height": 2778
-          },
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/profile.png",
-            "width": 1284,
-            "height": 2778
-          },
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/settings.png",
-            "width": 1284,
-            "height": 2778
-          }
-        ],
-        "ipad": [
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/chat.png",
-            "width": 1000,
-            "height": 692
-          },
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/plugins.png",
-            "width": 1000,
-            "height": 692
-          },
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/profile.png",
-            "width": 1000,
-            "height": 692
-          },
-          {
-            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/settings.png",
-            "width": 1000,
-            "height": 692
-          }
-        ]
-      },
       "versions": [
         {
           "version": "1.0.5",
