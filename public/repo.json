@@ -9,7 +9,7 @@
   "apps": [
     {
       "name": "Ryu",
-      "bundleIdentifier": "me.cranci.ryu",
+      "bundleIdentifier": "me.cranci.Ryu",
       "developerName": "cranci",
       "subtitle": "A simple way to enjoy and watch anime",
       "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
@@ -75,7 +75,7 @@
     },
     {
       "name": "AnimeGen",
-      "bundleIdentifier": "me.cranci.animegen",
+      "bundleIdentifier": "me.cranci.AnimeGen",
       "developerName": "cranci",
       "subtitle": "A simple way to enjoy anime art",
       "localizedDescription": "A simple way to enjoy anime art, generating images using public API.",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Osmium",
-      "bundleIdentifier": "me.cranci.osmium",
+      "bundleIdentifier": "me.sobet.Osmium",
       "developerName": "cranci",
       "subtitle": "A mobile client for the cobalt api",
       "localizedDescription": "A mobile client for the cobalt API, supporting most files and custom instances",
