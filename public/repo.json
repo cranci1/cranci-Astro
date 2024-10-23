@@ -144,6 +144,7 @@
       "appPermissions": {
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "Required to save Images",
+          "NSPhotoLibraryUsageDescription": "Required to store images on your device",
           "NSUserNotificationUsageDescription": "Required to send notifications on download"
         }
       }
