@@ -5,7 +5,7 @@
   "description": "This repo contains all the app that I have created and made public.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
   "website": "https://github.com/cranci1",
   "iconURL": "https://cdn.discordapp.com/avatars/908762694096654397/bce73d31ae314253b07311d6f37d6f65.png?size=4096",
-  "tintColor": "#93b5e1",
+  "tintColor": "#f8f650",
   "apps": [
     {
       "name": "Ryu",
@@ -14,7 +14,7 @@
       "subtitle": "A simple way to enjoy and watch anime",
       "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
       "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
-      "tintColor": "#008080",
+      "tintColor": "#2ba2ba",
       "category": "entertainment",
       "versions": [
         {
@@ -80,7 +80,7 @@
       "subtitle": "A simple way to enjoy anime art",
       "localizedDescription": "A simple way to enjoy anime art, generating images using public API.",
       "iconURL": "https://raw.githubusercontent.com/cranci1/AnimeGen/refs/heads/main/AnimeGen/Assets.xcassets/AppIcon.appiconset/04C0C479-EBC2-4BC3-98F4-89DA7AAEA2F5-1.png",
-      "tintColor": "#7F00FF",
+      "tintColor": "#473bcc",
       "category": "entertainment",
       "versions": [
         {
@@ -105,7 +105,7 @@
       "subtitle": "A mobile client for the cobalt api",
       "localizedDescription": "A mobile client for the cobalt API, supporting most files and custom instances",
       "iconURL": "https://raw.githubusercontent.com/cranci1/Osmium/refs/heads/main/Osmium/Osmium/Assets.xcassets/AppIcon.appiconset/180x180.png",
-      "tintColor": "#FFA500",
+      "tintColor": "#fd8108",
       "category": "utilities",
       "versions": [
         {
