@@ -143,7 +143,7 @@
       ],
       "appPermissions": {
         "privacy": {
-          "NSPhotoLibraryUsageDescription": "Required to save Images",
+          "NSPhotoLibraryAddUsageDescription": "Required to save Images",
           "NSUserNotificationUsageDescription": "Required to send notifications on download"
         }
       }
