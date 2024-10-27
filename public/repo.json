@@ -8,6 +8,32 @@
   "tintColor": "#d0c83e",
   "apps": [
     {
+      "name": "Ryu (nightly)",
+      "bundleIdentifier": "me.cranci.Ryu",
+      "developerName": "cranci",
+      "subtitle": "A simple way to enjoy and watch anime",
+      "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
+      "tintColor": "#2ba2ba",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "date": "2024-10-12T00:30:00-04:00",
+          "localizedDescription": "This version of Ryu may contain numerous unstable features, as it is a nightly release. This build gets update pretty much every day",
+          "downloadURL": "https://github.com/cranci1/Ryu/raw/refs/heads/nightly/nightly/Ryu.ipa",
+          "size": 6815744,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Required to cast Media on your devices",
+          "NSUserNotificationUsageDescription": "Required to send notifications for new Episodes"
+        }
+      }
+    },
+    {
       "name": "Ryu",
       "bundleIdentifier": "me.cranci.Ryu",
       "developerName": "cranci",
