@@ -19,7 +19,7 @@
       "versions": [
         {
           "version": "1.0.5",
-          "date": "2024-10-12T00:30:00-04:00",
+          "date": "2024-10-27T00:30:00-04:00",
           "localizedDescription": "This version of Ryu may contain numerous unstable features, as it is a nightly release. This build gets update pretty much every day",
           "downloadURL": "https://github.com/cranci1/Ryu/raw/refs/heads/nightly/nightly/Ryu.ipa",
           "size": 6815744,
