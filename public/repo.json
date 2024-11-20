@@ -1,187 +1,169 @@
 {
-  "name": "cranci's repo",
-  "identifier": "cranci",
-  "subtitle": "A full repo with all my apps",
-  "description": "This repo contains all the app that I have created and made public.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
-  "website": "https://github.com/cranci1",
-  "iconURL": "https://cdn.discordapp.com/avatars/908762694096654397/bce73d31ae314253b07311d6f37d6f65.png?size=4096",
-  "tintColor": "#d0c83e",
-  "apps": [
-    {
-      "name": "Ryu (nightly)",
-      "bundleIdentifier": "me.cranci.Ryu",
-      "developerName": "cranci",
-      "subtitle": "A simple way to enjoy and watch anime",
-      "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
-      "tintColor": "#2ba2ba",
-      "category": "entertainment",
-      "versions": [
+    "name": "cranci's repo",
+    "identifier": "cranci",
+    "subtitle": "A full repo with all my apps",
+    "description": "This repo contains all the app that I have created and made public.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
+    "website": "https://github.com/cranci1",
+    "iconURL": "https://cdn.discordapp.com/avatars/908762694096654397/bce73d31ae314253b07311d6f37d6f65.png?size=4096",
+    "tintColor": "#d0c83e",
+    "apps": [
         {
-          "version": "1.0.5",
-          "date": "2024-10-27T00:30:00-04:00",
-          "localizedDescription": "This version of Ryu may contain numerous unstable features, as it is a nightly release. This build gets update pretty much every day",
-          "downloadURL": "https://github.com/cranci1/Ryu/raw/refs/heads/main/nightly/Ryu.ipa",
-          "size": 6815744,
-          "minOSVersion": "14.0"
+            "name": "Ryu",
+            "bundleIdentifier": "me.cranci.Ryu",
+            "developerName": "cranci",
+            "subtitle": "A simple way to enjoy and watch anime",
+            "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
+            "tintColor": "#2ba2ba",
+            "category": "entertainment",
+            "versions": [
+                {
+                    "version": "1.0.6",
+                    "date": "2024-10-31T00:30:00-04:00",
+                    "localizedDescription": "What's New: Added an English, German and Croatian source. Lot of fixes and improvements and also Kitsu Login. Oh and also, Spooky update!",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.6/Ryu.ipa",
+                    "size": 6815744,
+                    "minOSVersion": "14.0"
+                },
+                {
+                    "version": "1.0.5",
+                    "date": "2024-10-12T00:30:00-04:00",
+                    "localizedDescription": "What's New: Added Anilibria (Russian source), re-added GoGoAnime parser, revamped Favorites to Library view, improved Kuramanime fetcher, new theme sync/switcher in settings, re-added Home Page context menus, and integrated external trackers. Fixed some crashes, fixed visual and search issues.",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.5/Ryu.ipa",
+                    "size": 5840000,
+                    "minOSVersion": "14.0"
+                },
+                {
+                    "version": "1.0.4",
+                    "date": "2024-09-16T00:30:00-04:00",
+                    "localizedDescription": "HiAnime fixes",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.4-1/Ryu.ipa",
+                    "size": 5760000,
+                    "minOSVersion": "14.0"
+                },
+                {
+                    "version": "1.0.3",
+                    "date": "2024-09-03T00:30:00-04:00",
+                    "localizedDescription": "What's New: Added ZoroTv (English source), Prefered quality setting, fixed AutoPlayer and added the Custom Media Player. Fixed some crashes, fixed OutPlayer not working, fixed other sources releated issues.",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.3/Ryu.ipa",
+                    "size": 5730000,
+                    "minOSVersion": "14.0"
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2024-08-21T00:30:00-04:00",
+                    "localizedDescription": "New features: HiAnime source (with SUB/DUB and subtitle language options), GoGoAnime quality selection, faster playback, JKAnime casting, secure AniList login, and download management. Bug fixes: streaming, downloads, UI improvements, and player performance.",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.2/Ryu.ipa",
+                    "size": 5650000,
+                    "minOSVersion": "14.0"
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2024-08-15T00:30:00-04:00",
+                    "localizedDescription": "New features: download cancellation, episode sorting, improved player speed control, GoGoAnime download support, added on the Home view error handling. Bug fixes: media playback, thumbnail swapping, JKAnime progress, AniList ID fetching, and audio issues. Anix.to source removed.",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.1/Ryu.ipa",
+                    "size": 5610000,
+                    "minOSVersion": "14.0"
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2024-08-10T00:30:00-04:00",
+                    "localizedDescription": "Initial Full release.",
+                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.0/AnimeLounge.ipa",
+                    "size": 5590000,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "privacy": {
+                    "NSLocalNetworkUsageDescription": "Required to cast Media on your devices",
+                    "NSUserNotificationUsageDescription": "Required to send notifications for new Episodes"
+                }
+            }
+        },
+        {
+            "name": "AnimeGen",
+            "bundleIdentifier": "me.cranci.AnimeGen",
+            "developerName": "cranci",
+            "subtitle": "A simple way to enjoy anime art",
+            "localizedDescription": "A simple way to enjoy anime art, generating images using public API.",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/AnimeGen/refs/heads/main/AnimeGen/Assets.xcassets/AppIcon.appiconset/04C0C479-EBC2-4BC3-98F4-89DA7AAEA2F5-1.png",
+            "tintColor": "#473bcc",
+            "category": "entertainment",
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "date": "2024-09-26T00:30:00-04:00",
+                    "localizedDescription": "Bug Fixes, this is the update brach from TestFlight",
+                    "downloadURL": "https://github.com/cranci1/AnimeGen/releases/download/v2.0.1/AnimeGen.ipa",
+                    "size": 4590000,
+                    "minOSVersion": "13.0"
+                }
+            ],
+            "appPermissions": {
+                "privacy": {
+                    "NSPhotoLibraryAddUsageDescription": "Required to save Images"
+                }
+            }
+        },
+        {
+            "name": "Osmium",
+            "bundleIdentifier": "me.sobet.Osmium",
+            "developerName": "cranci",
+            "subtitle": "A mobile client for the cobalt api",
+            "localizedDescription": "A mobile client for the cobalt API, supporting most files and custom instances",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/Osmium/refs/heads/main/Osmium/Osmium/Assets.xcassets/AppIcon.appiconset/180x180.png",
+            "tintColor": "#fd8108",
+            "category": "utilities",
+            "versions": [
+                {
+                    "version": "0.6",
+                    "date": "2024-11-20T00:30:00-04:00",
+                    "localizedDescription": "Pretty good changes to the UI and good updates to the API support",
+                    "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.6/Osmium.ipa",
+                    "size": 222000,
+                    "minOSVersion": "14.2"
+                },
+                {
+                    "version": "0.5",
+                    "date": "2024-10-20T00:30:00-04:00",
+                    "localizedDescription": "Update to the latest cobalt API update",
+                    "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.5/Osmium.ipa",
+                    "size": 208000,
+                    "minOSVersion": "14.2"
+                },
+                {
+                    "version": "0.4",
+                    "date": "2024-09-26T00:30:00-04:00",
+                    "localizedDescription": "Added support for image picker for Instagram/Twitter and updated to latest API version of Cobalt. Lot of general Fixes also like UI and sharing mechanism",
+                    "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.4/Osmium.ipa",
+                    "size": 198000,
+                    "minOSVersion": "14.2"
+                },
+                {
+                    "version": "0.3",
+                    "date": "2024-08-11T00:30:00-04:00",
+                    "localizedDescription": "You can now navigate files via the stock iOS Files app after download + option to share downloads when finished.",
+                    "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.3/Osmium.ipa",
+                    "size": 180000,
+                    "minOSVersion": "14.2"
+                },
+                {
+                    "version": "0.2",
+                    "date": "2024-06-07T00:30:00-04:00",
+                    "localizedDescription": "Support for all the formats and file have been finally added!",
+                    "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.2/Osmium.ipa",
+                    "size": 175000,
+                    "minOSVersion": "14.2"
+                }
+            ],
+            "appPermissions": {
+                "privacy": {
+                    "NSPhotoLibraryAddUsageDescription": "Required to save Images",
+                    "NSPhotoLibraryUsageDescription": "Required to store images on your device",
+                    "NSUserNotificationUsageDescription": "Required to send notifications on download"
+                }
+            }
         }
-      ],
-      "appPermissions": {
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "Required to cast Media on your devices",
-          "NSUserNotificationUsageDescription": "Required to send notifications for new Episodes"
-        }
-      }
-    },
-    {
-      "name": "Ryu",
-      "bundleIdentifier": "me.cranci.Ryu",
-      "developerName": "cranci",
-      "subtitle": "A simple way to enjoy and watch anime",
-      "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
-      "tintColor": "#2ba2ba",
-      "category": "entertainment",
-      "versions": [
-        {
-          "version": "1.0.6",
-          "date": "2024-10-31T00:30:00-04:00",
-          "localizedDescription": "What's New: Added an English, German and Croatian source. Lot of fixes and improvements and also Kitsu Login. Oh and also, Spooky update!",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.6/Ryu.ipa",
-          "size": 6815744,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.0.5",
-          "date": "2024-10-12T00:30:00-04:00",
-          "localizedDescription": "What's New: Added Anilibria (Russian source), re-added GoGoAnime parser, revamped Favorites to Library view, improved Kuramanime fetcher, new theme sync/switcher in settings, re-added Home Page context menus, and integrated external trackers. Fixed some crashes, fixed visual and search issues.",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.5/Ryu.ipa",
-          "size": 5840000,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.0.4",
-          "date": "2024-09-16T00:30:00-04:00",
-          "localizedDescription": "HiAnime fixes",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.4-1/Ryu.ipa",
-          "size": 5760000,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.0.3",
-          "date": "2024-09-03T00:30:00-04:00",
-          "localizedDescription": "What's New: Added ZoroTv (English source), Prefered quality setting, fixed AutoPlayer and added the Custom Media Player. Fixed some crashes, fixed OutPlayer not working, fixed other sources releated issues.",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.3/Ryu.ipa",
-          "size": 5730000,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.0.2",
-          "date": "2024-08-21T00:30:00-04:00",
-          "localizedDescription": "New features: HiAnime source (with SUB/DUB and subtitle language options), GoGoAnime quality selection, faster playback, JKAnime casting, secure AniList login, and download management. Bug fixes: streaming, downloads, UI improvements, and player performance.",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.2/Ryu.ipa",
-          "size": 5650000,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.0.1",
-          "date": "2024-08-15T00:30:00-04:00",
-          "localizedDescription": "New features: download cancellation, episode sorting, improved player speed control, GoGoAnime download support, added on the Home view error handling. Bug fixes: media playback, thumbnail swapping, JKAnime progress, AniList ID fetching, and audio issues. Anix.to source removed.",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.1/Ryu.ipa",
-          "size": 5610000,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2024-08-10T00:30:00-04:00",
-          "localizedDescription": "Initial Full release.",
-          "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.0/AnimeLounge.ipa",
-          "size": 5590000,
-          "minOSVersion": "14.0"
-        }
-      ],
-      "appPermissions": {
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "Required to cast Media on your devices",
-          "NSUserNotificationUsageDescription": "Required to send notifications for new Episodes"
-        }
-      }
-    },
-    {
-      "name": "AnimeGen",
-      "bundleIdentifier": "me.cranci.AnimeGen",
-      "developerName": "cranci",
-      "subtitle": "A simple way to enjoy anime art",
-      "localizedDescription": "A simple way to enjoy anime art, generating images using public API.",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/AnimeGen/refs/heads/main/AnimeGen/Assets.xcassets/AppIcon.appiconset/04C0C479-EBC2-4BC3-98F4-89DA7AAEA2F5-1.png",
-      "tintColor": "#473bcc",
-      "category": "entertainment",
-      "versions": [
-        {
-          "version": "2.0.0",
-          "date": "2024-09-26T00:30:00-04:00",
-          "localizedDescription": "Bug Fixes, this is the update brach from TestFlight",
-          "downloadURL": "https://github.com/cranci1/AnimeGen/releases/download/v2.0.1/AnimeGen.ipa",
-          "size": 4590000,
-          "minOSVersion": "13.0"
-        }
-      ],
-      "appPermissions": {
-        "privacy": {
-          "NSPhotoLibraryAddUsageDescription": "Required to save Images"
-        }
-      }
-    },
-    {
-      "name": "Osmium",
-      "bundleIdentifier": "me.sobet.Osmium",
-      "developerName": "cranci",
-      "subtitle": "A mobile client for the cobalt api",
-      "localizedDescription": "A mobile client for the cobalt API, supporting most files and custom instances",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/Osmium/refs/heads/main/Osmium/Osmium/Assets.xcassets/AppIcon.appiconset/180x180.png",
-      "tintColor": "#fd8108",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "0.5",
-          "date": "2024-10-20T00:30:00-04:00",
-          "localizedDescription": "Update to the latest cobalt API update",
-          "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.5/Osmium.ipa",
-          "size": 208000,
-          "minOSVersion": "14.2"
-        },
-        {
-          "version": "0.4",
-          "date": "2024-09-26T00:30:00-04:00",
-          "localizedDescription": "Added support for image picker for Instagram/Twitter and updated to latest API version of Cobalt. Lot of general Fixes also like UI and sharing mechanism",
-          "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.4/Osmium.ipa",
-          "size": 198000,
-          "minOSVersion": "14.2"
-        },
-        {
-          "version": "0.3",
-          "date": "2024-08-11T00:30:00-04:00",
-          "localizedDescription": "You can now navigate files via the stock iOS Files app after download + option to share downloads when finished.",
-          "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.3/Osmium.ipa",
-          "size": 180000,
-          "minOSVersion": "14.2"
-        },
-        {
-          "version": "0.2",
-          "date": "2024-06-07T00:30:00-04:00",
-          "localizedDescription": "Support for all the formats and file have been finally added!",
-          "downloadURL": "https://github.com/cranci1/Osmium/releases/download/v0.2/Osmium.ipa",
-          "size": 175000,
-          "minOSVersion": "14.2"
-        }
-      ],
-      "appPermissions": {
-        "privacy": {
-          "NSPhotoLibraryAddUsageDescription": "Required to save Images",
-          "NSPhotoLibraryUsageDescription": "Required to store images on your device",
-          "NSUserNotificationUsageDescription": "Required to send notifications on download"
-        }
-      }
-    }
-  ]
+    ]
 }
