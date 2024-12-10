@@ -6,7 +6,8 @@
         "website": "https://github.com/cranci1"
     },
     "iconURL": "https://anitaku.bz/img/icon/logo.png",
-    "apps": [
+    "stream": "HLS",
+    "module": [
         {
             "search": {
                 "url": "https://anitaku.bz/search.html",

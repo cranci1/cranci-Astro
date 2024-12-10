@@ -1,12 +1,12 @@
 {
     "name": "AnimeWorld",
-    "version": "1.0.0",
     "author": {
         "name": "cranci",
         "website": "https://github.com/cranci1"
     },
-    "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/refs/heads/main/Ryu/Assets.xcassets/Sources/AnimeWorld.imageset/animeworld.png",
-    "apps": [
+    "iconURL": "https://github.com/cranci1/Ryu/blob/main/Ryu/Assets.xcassets/Sources/AniWorld.imageset/AniWorld.png",
+    "stream": "MP4",
+    "module": [
         {
             "search": {
                 "url": "https://animeworld.so/search",
