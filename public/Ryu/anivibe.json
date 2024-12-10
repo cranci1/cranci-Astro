@@ -1,11 +1,13 @@
 {
     "name": "AniVibe",
+    "version": "1.0.0",
     "author": {
         "name": "cranci",
         "website": "https://github.com/cranci1"
     },
     "iconURL": "https://cdn5.cdn-telegram.org/file/qKYTtOL-zI3oithkjMOxE9q0EKv9Y6pQMcxGp0UAEJQIl1Kr2sjqBXaHAYeFkHYX7JX_tgJqUH_BViHrdDuGZ7pNjTBio8vJBssF0QMtRoqZya3zfNdN0UwgWGXjdIZSqX6vreMmYKjunt4YdHmM29H88D2Az2quOP-Vz135610FmjvBtmZr_7StHYcmTAw3lxwyUlZPwVeizcAWj70m_CJtfyLR_BdzxQzPFN8BIW3SLIq3E7iPDVJ2RdmRnTkoQ07Q0VhnIjSMklFyazqDjJNjiIbNJZjv-XD930H3HKhuYj10__5Vad_mTrlaLM0e6IP5TMlMMfCyyeG62Dl3zw.jpg",
-    "apps": [
+    "stream": "HLS",
+    "module": [
         {
             "search": {
                 "url": "https://anivibe.net/search",
