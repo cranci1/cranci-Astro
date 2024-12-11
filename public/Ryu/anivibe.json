@@ -10,7 +10,7 @@
     "module": [
         {
             "search": {
-                "url": "https://anivibe.net/search",
+                "url": "https://anivibe.net/search.html",
                 "parameter": "keyword",
                 "documentSelector": "div.listupd article",
                 "title": "div.tt span",
