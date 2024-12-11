@@ -12,7 +12,7 @@
             "search": {
                 "url": "https://anitaku.bz/search.html",
                 "parameter": "keyword",
-                "documentSelector": "div.last_episodes li",
+                "documentSelector": "ul.items li",
                 "title": "p.name a",
                 "image": {
                     "url": "div.img img",
