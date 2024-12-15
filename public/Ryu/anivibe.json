@@ -36,7 +36,7 @@
                     "selector": "div.post-title h1",
                     "attribute": "text"
                 },
-                "synopsis": "div.entry-content p",
+                "synopsis": "div.entry-content",
                 "airdate": "div.post-meta span:contains(Aired) + span",
                 "stars": "div.post-meta span:contains(Rating) + span"
             },
