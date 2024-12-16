@@ -1,0 +1,48 @@
+{
+    "name": "AnimeHeaven",
+    "version": "1.0.0",
+    "author": {
+        "name": "cranci",
+        "website": "https://github.com/cranci1"
+    },
+    "iconURL": "https://animeheaven.me/ah_logo.png",
+    "stream": "mp4",
+    "module": [
+        {
+            "search": {
+                "url": "https://animeheaven.me/search.php",
+                "parameter": "s",
+                "documentSelector": "div.similarimg",
+                "title": "a.c",
+                "image": {
+                    "url": "img",
+                    "attribute": "src"
+                },
+                "href": "a"
+            },
+            "featured": {
+                "url": "https://animeheaven.me/new.php",
+                "documentSelector": "div.chart.bc1",
+                "title": "a.c",
+                "image": {
+                    "url": "img",
+                    "attribute": "src"
+                },
+                "href": "a"
+            },
+            "details": {
+                "baseURL": "https://animeheaven.me/",
+                "aliases": {
+                    "selector": "div.infotitlejp.c",
+                    "attribute": "text"
+                },
+                "synopsis": "div.infodes.c",
+                "airdate": "",
+                "stars": ""
+            },
+            "episodes": {
+                "selector": "div.linetitle2"
+            }
+        }
+    ]
+}
