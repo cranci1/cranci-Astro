@@ -6,7 +6,8 @@
         "website": "https://github.com/cranci1"
     },
     "iconURL": "https://animeheaven.me/ah_logo.png",
-    "stream": "mp4",
+    "stream": "MP4",
+    "language": "EN",
     "module": [
         {
             "search": {
