@@ -8,6 +8,7 @@
     "iconURL": "https://anitaku.bz/img/icon/logo.png",
     "stream": "HLS",
     "language": "EN",
+    "extractor": "normal",
     "module": [
         {
             "search": {

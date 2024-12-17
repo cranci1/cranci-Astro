@@ -8,6 +8,7 @@
     "iconURL": "https://animeheaven.me/ah_logo.png",
     "stream": "MP4",
     "language": "EN",
+    "extractor": "normal",
     "module": [
         {
             "search": {
