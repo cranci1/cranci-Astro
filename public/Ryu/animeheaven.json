@@ -42,7 +42,7 @@
                 "stars": ""
             },
             "episodes": {
-                "selector": "div.linetitle2"
+                "selector": "div.linetitle2 a"
             }
         }
     ]
