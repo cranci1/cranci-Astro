@@ -34,8 +34,8 @@
             "details": {
                 "baseURL": "https://animeheaven.me/",
                 "aliases": {
-                    "selector": "div.infotitlejp.c",
-                    "attribute": "text"
+                    "selector": "",
+                    "attribute": ""
                 },
                 "synopsis": "div.infodes.c",
                 "airdate": "",
