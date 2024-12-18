@@ -43,7 +43,8 @@
                 "stars": "dd.rating span"
             },
             "episodes": {
-                "selector": "div.server.active ul.episodes li.episode a"
+                "selector": "div.server.active ul.episodes li.episode a",
+                "order": "ordered"
             }
         }
     ]

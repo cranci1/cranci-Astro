@@ -43,7 +43,8 @@
                 "stars": "div.post-meta span:contains(Rating) + span"
             },
             "episodes": {
-                "selector": "div.eplister ul li a"
+                "selector": "div.eplister ul li a",
+                "order": "reversed"
             }
         }
     ]
