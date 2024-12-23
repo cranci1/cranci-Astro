@@ -1,0 +1,51 @@
+{
+    "name": "AniPlay",
+    "version": "1.0.0",
+    "author": {
+        "name": "tokumei & cranci",
+        "website": "https://github.com/tagjg"
+    },
+    "iconURL": "https://styles.redditmedia.com/t5_b5hqqj/styles/communityIcon_x1wpcmqf7fsc1.jpg?format=pjpg&s=2330a9c6f375e25cf38ecd8bce818904c4867c45",
+    "stream": "HLS",
+    "language": "EN",
+    "extractor": "normal",
+    "module": [
+        {
+            "search": {
+                "url": "https://aniplaynow.live/catalog",
+                "parameter": "search",
+                "documentSelector": "div.Catalog_cardtop__9aNdB div",
+                "title": "span",
+                "image": {
+                    "url": "img",
+                    "attribute": "src"
+                },
+                "href": "a"
+            },
+            "featured": {
+                "url": "https://anivibe.net/newest",
+                "documentSelector": "div.listupd article",
+                "title": "div.tt span",
+                "image": {
+                    "url": "img",
+                    "attribute": "src"
+                },
+                "href": "a"
+            },
+            "details": {
+                "baseURL": "https://aniplaynow.live",
+                "aliases": {
+                    "selector": "h4.AnimeDetailsTop_alttitle__6qsft !font-medium",
+                    "attribute": "text"
+                },
+                "synopsis": "div.AnimeDetailsBottom_descriptioncontent__v_ijv p",
+                "airdate": "span.AnimeDetailsBottom_con__uOKud",
+                "stars": ""
+            },
+            "episodes": {
+                "selector": "divEpimglist_epimgcondiv__UVpLl a",
+                "order": "ordered"
+            }
+        }
+    ]
+}
