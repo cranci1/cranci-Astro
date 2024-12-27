@@ -8,86 +8,24 @@
     "tintColor": "#d0c83e",
     "apps": [
         {
-            "name": "Ryu",
-            "bundleIdentifier": "me.cranci.Ryu",
+            "name": "Sora",
+            "bundleIdentifier": "me.cranci.Sora",
             "developerName": "cranci",
-            "subtitle": "A simple way to enjoy and watch anime",
-            "localizedDescription": "A simple, free way to watch anime on iOS in multiple languages using various sources.",
-            "iconURL": "https://raw.githubusercontent.com/cranci1/Ryu/main/Ryu/Assets.xcassets/AppIcon.appiconset/1024.jpg",
+            "subtitle": "A modular iOS app to stream contents",
+            "localizedDescription": "A modular iOS app to stream contents",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/Sora/main/Sora/Assets.xcassets/AppIcon.appiconset/180.png",
             "tintColor": "#2ba2ba",
             "category": "entertainment",
             "versions": [
                 {
-                    "version": "1.0.7",
+                    "version": "1.0.0",
                     "date": "2024-10-31T00:30:00-04:00",
                     "localizedDescription": "What's New: Many many things added and many many fixes have been made in this release. Check github for more infomations.",
                     "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.7/Ryu.ipa",
                     "size": 6040000,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.6",
-                    "date": "2024-10-31T00:30:00-04:00",
-                    "localizedDescription": "What's New: Added an English, German and Croatian source. Lot of fixes and improvements and also Kitsu Login. Oh and also, Spooky update!",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.6/Ryu.ipa",
-                    "size": 6815744,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.5",
-                    "date": "2024-10-12T00:30:00-04:00",
-                    "localizedDescription": "What's New: Added Anilibria (Russian source), re-added GoGoAnime parser, revamped Favorites to Library view, improved Kuramanime fetcher, new theme sync/switcher in settings, re-added Home Page context menus, and integrated external trackers. Fixed some crashes, fixed visual and search issues.",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.5/Ryu.ipa",
-                    "size": 5840000,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.4",
-                    "date": "2024-09-16T00:30:00-04:00",
-                    "localizedDescription": "HiAnime fixes",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.4-1/Ryu.ipa",
-                    "size": 5760000,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.3",
-                    "date": "2024-09-03T00:30:00-04:00",
-                    "localizedDescription": "What's New: Added ZoroTv (English source), Prefered quality setting, fixed AutoPlayer and added the Custom Media Player. Fixed some crashes, fixed OutPlayer not working, fixed other sources releated issues.",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.3/Ryu.ipa",
-                    "size": 5730000,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.2",
-                    "date": "2024-08-21T00:30:00-04:00",
-                    "localizedDescription": "New features: HiAnime source (with SUB/DUB and subtitle language options), GoGoAnime quality selection, faster playback, JKAnime casting, secure AniList login, and download management. Bug fixes: streaming, downloads, UI improvements, and player performance.",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.2/Ryu.ipa",
-                    "size": 5650000,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.1",
-                    "date": "2024-08-15T00:30:00-04:00",
-                    "localizedDescription": "New features: download cancellation, episode sorting, improved player speed control, GoGoAnime download support, added on the Home view error handling. Bug fixes: media playback, thumbnail swapping, JKAnime progress, AniList ID fetching, and audio issues. Anix.to source removed.",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.1/Ryu.ipa",
-                    "size": 5610000,
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2024-08-10T00:30:00-04:00",
-                    "localizedDescription": "Initial Full release.",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.0/AnimeLounge.ipa",
-                    "size": 5590000,
-                    "minOSVersion": "14.0"
+                    "minOSVersion": "15.0"
                 }
-            ],
-            "appPermissions": {
-                "privacy": {
-                    "NSLocalNetworkUsageDescription": "Required to cast Media on your devices",
-                    "NSUserNotificationUsageDescription": "Required to send notifications for new Episodes"
-                }
-            }
+            ]
         },
         {
             "name": "AnimeGen",
