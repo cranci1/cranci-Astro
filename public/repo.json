@@ -18,11 +18,11 @@
             "category": "entertainment",
             "versions": [
                 {
-                    "version": "1.0.0",
-                    "date": "2024-10-31T00:30:00-04:00",
-                    "localizedDescription": "What's New: Many many things added and many many fixes have been made in this release. Check github for more infomations.",
-                    "downloadURL": "https://github.com/cranci1/Ryu/releases/download/v1.0.7/Ryu.ipa",
-                    "size": 6040000,
+                    "version": "0.1.0",
+                    "date": "2025-01-01T00:30:00-04:00",
+                    "localizedDescription": "First public beta for iOS/iPadOS. Check github for more infomations.",
+                    "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.1.0/Sora.ipa",
+                    "size": 1300000,
                     "minOSVersion": "15.0"
                 }
             ]
