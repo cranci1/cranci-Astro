@@ -46,7 +46,7 @@ const projects = await Promise.all(
 					<h1 class="text-3xl font-bold">
 						Halo I'm
 						<span class="text-gradient">cranci</span>
-						👋
+							👋
 					</h1>
 
 					<p class="text-gray-400">swift enjoyer</p>
@@ -60,63 +60,63 @@ const projects = await Promise.all(
 			</p>
 		</header>
 		<section>
-			<h1 class="text-2xl font-bold">Projects</h1>
-			<p class="text-gray-300 mb-2">
-				Here you can find some projects im working on, all open source
-				available on GitHub.
-			</p>
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-				{
-					projects.map((project) => (
-						<a
-							href={project.html_url}
-							target="_blank"
-							class="block p-4 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors"
-						>
-							<div class="flex items-center gap-2 mb-2">
-								<img
-									src={project.owner.avatar_url}
-									alt={project.owner.login}
-									class="w-5 h-5 rounded-full"
-								/>
-								<span class="text-sm text-gray-400">
-									{project.owner.login}
-								</span>
-							</div>
-							<h3 class="font-semibold mb-1">{project.name}</h3>
-							<p class="text-sm text-gray-400 mb-3 line-clamp-2">
-								{project.description}
-							</p>
-							<div class="flex items-center gap-4 text-sm text-gray-400">
-								<div class="flex items-center gap-1">
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										class="w-4 h-4"
-										viewBox="0 0 24 24"
-										fill="none"
-										stroke="currentColor"
-										stroke-width="2"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									>
-										<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-									</svg>
-									<span>{project.stargazers_count}</span>
+				<h2 class="text-2xl font-bold">Projects</h2>
+				<p class="text-gray-300 mb-2">
+					Here you can find some projects im working on, all open source
+					available on GitHub.
+				</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+					{
+						projects.map((project) => (
+							<a
+								href={project.html_url}
+								target="_blank"
+								class="block p-4 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors"
+							>
+								<div class="flex items-center gap-2 mb-2">
+									<img
+										src={project.owner.avatar_url}
+										alt={project.owner.login}
+										class="w-5 h-5 rounded-full"
+									/>
+									<span class="text-sm text-gray-400">
+										{project.owner.login}
+									</span>
 								</div>
-								{project.language && (
+								<h3 class="font-semibold mb-1">{project.name}</h3>
+								<p class="text-sm text-gray-400 mb-3 line-clamp-2">
+									{project.description}
+								</p>
+								<div class="flex items-center gap-4 text-sm text-gray-400">
 									<div class="flex items-center gap-1">
-										<span class="w-2 h-2 rounded-full bg-gray-400" />
-										<span>{project.language}</span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="w-4 h-4"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+										</svg>
+										<span>{project.stargazers_count}</span>
 									</div>
-								)}
-							</div>
-						</a>
-					))
-				}
-			</div>            
-			<p class="text-gray-300 mb-2 text-xs mt-2 mr-2 ml-2 text-center">
-				R.I.P. Ryu, (June 2024 - December 2024), killed by crunchyroll with a DMCA.
-			</p>
+									{project.language && (
+										<div class="flex items-center gap-1">
+											<span class="w-2 h-2 rounded-full bg-gray-400" />
+											<span>{project.language}</span>
+										</div>
+									)}
+								</div>
+							</a>
+						))
+					}
+				</div>            
+				<p class="text-gray-300 mb-2 text-xs mt-2 mr-2 ml-2 text-center">
+					R.I.P. Ryu, (June 2024 - December 2024), killed by crunchyroll with a DMCA.
+				</p>
 		</section>
 	</main>
 </Layout>
