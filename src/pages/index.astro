@@ -7,7 +7,7 @@ const GITHUB_TARGETS = [
     { user: "cranci1", repo: "Osmium" },
     { user: "cranci1", repo: "Ryu" },
     { user: "Ultramicroscope", repo: "HuTao" },	
-        { user: "cranci1", repo: "cranci.xyz-Astro" },
+    { user: "cranci1", repo: "cranci.xyz-Astro" },
 ];
 
 const fetchRepoDetails = async (user: string, repo: string) => {
@@ -127,8 +127,10 @@ const projects = await Promise.all(
                 </div>            
                 <p class="text-gray-300 mb-2 text-xs mt-2 mr-2 ml-2 text-center">
 					R.I.P. Ryu, (June 2024 - December 2024), taken down by Crunchyroll with a DMCA.
-					The project that truly made me someone in this world. (fuck crunchyroll and markscan)
                 </p>
         </section>
+        <footer class="mt-16 text-center text-gray-500 text-xs">
+            <p>Licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" class="text-gradient">GPLv3.0</a> made with love</p>
+        </footer>
     </main>
 </Layout>
