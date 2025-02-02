@@ -1,5 +1,5 @@
-# cranci.xyz 
-> now hosted on cranci.tech
+# cranci-Astro
+> hosted on cranci.tech
 
 Its a simple portofolio website made using Asto and Tailwind css, minimalist full black/gray scale.
 
