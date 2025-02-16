@@ -26,7 +26,7 @@
                     "version": "0.2.0",
                     "date": "2025-02-16T00:30:00-04:00",
                     "localizedDescription": "Complete rewrite of the app using the JScore framework",
-                    "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.1.0/Sora.ipa",
+                    "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.2.0/Sora.ipa",
                     "size": 839000,
                     "minOSVersion": "15.0"
                 },
