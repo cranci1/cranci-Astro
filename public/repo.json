@@ -14,14 +14,22 @@
             "subtitle": "A modular iOS app to stream contents",
             "localizedDescription": "A modular iOS app to stream contents",
             "beta": true,
-            "version": "0.1.0",
-            "versionDate": "2025-01-01T00:30:00-04:00",
-            "versionDescription": "First public beta for iOS/iPadOS. Check github for more infomations.",
-            "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.1.0/Sora.ipa",
+            "version": "0.2.0",
+            "versionDate": "2025-02-16T00:30:00-04:00",
+            "versionDescription": "Complete rewrite of the app using the JScore framework",
+            "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.2.0/Sora.ipa",
             "iconURL": "https://raw.githubusercontent.com/cranci1/Sora/main/Sora/Assets.xcassets/AppIcon.appiconset/180.png",
             "tintColor": "#2ba2ba",
             "category": "entertainment",
             "versions": [
+                {
+                    "version": "0.2.0",
+                    "date": "2025-02-16T00:30:00-04:00",
+                    "localizedDescription": "Complete rewrite of the app using the JScore framework",
+                    "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.1.0/Sora.ipa",
+                    "size": 839000,
+                    "minOSVersion": "15.0"
+                },
                 {
                     "version": "0.1.0",
                     "date": "2025-01-01T00:30:00-04:00",
