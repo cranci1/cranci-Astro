@@ -35,7 +35,7 @@
       "versions": [
         {
           "version": "0.2.3",
-          "buildVersion": "1",
+          "buildVersion": "45",
           "date": "2025-05-10T00:30:00-04:00",
           "localizedDescription": "Version 0.2.3 only includes crash fixes",
           "downloadURL": "https://cranci.tech/ADP/",
