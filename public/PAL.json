@@ -1,0 +1,59 @@
+{
+  "name": "cranci's repo",
+  "identifier": "cranci",
+  "subtitle": "The home of cranci's apps",
+  "description": "This repo contains apps, such as Sora, that were developed by me, cranci.",
+  "website": "https://github.com/cranci1",
+  "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
+  "tintColor": "#d0c83e",
+  "featuredApps": [
+      "me.cranci.Sora"
+  ],
+  "apps": [
+    {
+      "name": "Sora",
+      "bundleIdentifier": "me.cranci.Sora",
+      "developerName": "cranci1",
+      "subtitle": "A modular iOS app to stream contents (AKA Sulfur)",
+      "localizedDescription": "A modular iOS app to stream contents (AKA Sulfur)",
+      "beta": false,
+      "version": "0.2.3",
+      "versionDate": "2025-05-010T00:30:00-04:00",
+      "versionDescription": "Version 0.2.3 only includes crash fixes",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/Sora/Assets.xcassets/AppIcon.appiconset/darkmode.png",
+      "tintColor": "#ff9500",
+      "category": "entertainment",
+      "marketplaceID": "6742741043",
+
+      "screenshots": [
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-1.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-2.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-3.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-4.png"
+      ],
+      "versions": [
+        {
+          "version": "0.2.3",
+          "buildVersion": 1,
+          "date": "2025-05-10T00:30:00-04:00",
+          "localizedDescription": "Version 0.2.3 only includes crash fixes",
+          "downloadURL": "https://cranci.tech/ADP/",
+          "size": 1120000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.app-sandbox",
+          "com.apple.security.network.client"
+        ],
+        "privacy": {
+          "NSAppTransportSecurity": "Allows arbitrary loads for network requests.",
+          "UIBackgroundModes": "Supports audio and processing in the background.",
+          "UISupportsDocumentBrowser": "Allows document browsing."
+        }
+      }
+    }
+  ],
+  "news": []
+}
