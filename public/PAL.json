@@ -7,15 +7,16 @@
   "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
   "tintColor": "#d0c83e",
   "featuredApps": [
-      "me.cranci.Sora"
+      "me.cranci.sulfur"
   ],
   "apps": [
     {
       "name": "Sora",
-      "bundleIdentifier": "me.cranci.Sora",
-      "developerName": "cranci1",
-      "subtitle": "A modular iOS app to stream contents (AKA Sulfur)",
-      "localizedDescription": "A modular iOS app to stream contents (AKA Sulfur)",
+      "bundleIdentifier": "me.cranci.sulfur",
+      "developerName": "cranci",
+      "subtitle": "Sora is a modular web scraping application designed to work exclusively with custom modules, seamlessly integrated with media trackers like AniList.",
+      "localizedDescription": "Sora is a modular web scraping application designed to work exclusively with custom modules, seamlessly integrated with media trackers like AniList. It allows users to create and share modules for various websites, enabling them to scrape data and automate tasks. Sora is built on the JScore framework, which provides a powerful and flexible environment for module development. The app is designed to be user-friendly and accessible, making it easy for anyone to create their own modules without any programming knowledge.",
+
       "beta": false,
       "version": "0.2.3",
       "versionDate": "2025-05-010T00:30:00-04:00",
