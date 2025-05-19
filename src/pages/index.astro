@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Analytics from '@vercel/analytics/astro'
 
 const GITHUB_TARGETS = [
     { user: "cranci1", repo: "Sora" },
@@ -134,3 +135,4 @@ const projects = await Promise.all(
         </footer>
     </main>
 </Layout>
+<Analytics/>
