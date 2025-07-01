@@ -14,14 +14,22 @@
             "subtitle": "A modular iOS app to stream contents (AKA Sulfur)",
             "localizedDescription": "A modular iOS app to stream contents (AKA Sulfur)",
             "beta": false,
-            "version": "0.2.2",
-            "versionDate": "2025-05-07T00:30:00-04:00",
-            "versionDescription": "Version 0.2.2!!!, Many new features and bug fixes check Github for full changelog!",
-            "downloadURL": "https://github.com/cranci1/Sora/releases/download/0.2.2/Sulfur.ipa",
+            "version": "1.0.0",
+            "versionDate": "2025-07-01T00:30:00-04:00",
+            "versionDescription": "Version 1.0.0 comes with a brand new UI and many new features",
+            "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.0.0/Sulfur.ipa",
             "iconURL": "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/Sora/Assets.xcassets/AppIcon.appiconset/darkmode.png",
             "tintColor": "#2ba2ba",
             "category": "entertainment",
             "versions": [
+                {
+                    "version": "1.0.0",
+                    "date": "2025-07-01T00:30:00-04:00",
+                    "localizedDescription": "Version 1.0.0 comes with a brand new UI and many new features",
+                    "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.0.0/Sulfur.ipa",
+                    "size": 2250000,
+                    "minOSVersion": "15.0"
+                },
                 {
                     "version": "0.2.2",
                     "date": "2025-05-07T00:30:00-04:00",
