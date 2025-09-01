@@ -94,14 +94,14 @@ const projects = await Promise.all(
                                             {project.owner.login}
                                         </span>
                                     </div>
-                                    <span>
-                                        <h3 class="font-semibold mb-1">{project.name}</h3>
+                                    <div class="flex items-center gap-2 mb-1">
+                                        <h3 class="font-semibold">{project.name}</h3>
                                         {project.archived && (
                                             <span class="text-[10px] bg-transparent border-2 border-yellow-500 text-yellow-500 px-2 py-1 rounded-full font-medium">
                                                 Archived
                                             </span>
                                         )}
-                                    </span>
+                                    </div>
                                     <p class="text-sm text-gray-400 mb-3 line-clamp-2">
                                         {project.description}
                                     </p>
