@@ -1,5 +1,5 @@
 # cranci-Astro
-> hosted on cranci.tech
+> hosted on cranci.me
  
 This is a simple portfolio website made using Astro and Tailwind CSS, with a minimalist full black/grayscale design
 
