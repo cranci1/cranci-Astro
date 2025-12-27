@@ -9,7 +9,6 @@ This is a simple portfolio website made using Astro and Tailwind CSS, with a min
 
 <img src="https://raw.githubusercontent.com/cranci1/cranci.xyz-Astro/refs/heads/master/preview.png">
 
-
 ## License
 ```
 Copyright © 2024-2025 cranci. All rights reserved.
