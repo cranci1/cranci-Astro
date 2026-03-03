@@ -17,14 +17,22 @@
             "developerName": "cranci",
             "subtitle": "A modular iOS app to stream contents (AKA Sulfur)",
             "localizedDescription": "A modular iOS app to stream contents (AKA Sulfur)",
-            "version": "1.1.0",
-            "versionDate": "2025-07-01T00:30:00-04:00",
-            "versionDescription": "Version 1.1.0 comes to fix issues on the 1.1.0 version",
-            "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.1.0/Sora.ipa",
+            "version": "1.2.0",
+            "versionDate": "2026-03-03T00:30:00-04:00",
+            "versionDescription": "Version 1.2.0 fixes lot of issues and improves stability",
+            "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.2.0/Sora.ipa",
             "iconURL": "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/Sora/Assets.xcassets/AppIcon.appiconset/darkmode.png",
             "tintColor": "#2ba2ba",
             "category": "entertainment",
             "versions": [
+                {
+                    "version": "1.2.0",
+                    "date": "2026-03-03T00:30:00-04:00",
+                    "localizedDescription": "Version 1.2.0 fixes lot of issues and improves stability",
+                    "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.2.0/Sora.ipa",
+                    "size": 2860000,
+                    "minOSVersion": "15.0"
+                },
                 {
                     "version": "1.1.1",
                     "date": "2025-09-08T00:30:00-04:00",
@@ -219,7 +227,7 @@
             "downloadURL": "https://github.com/cranci1/Iridum/releases/download/v1.0.0/Iridum.ipa",
             "iconURL": "https://raw.githubusercontent.com/cranci1/Iridum/85d169a8929d7e42effa1ed98d7f98859d91e989/Iridum/Assets.xcassets/AppIcon.appiconset/180.png",
             "tintColor": "#008080",
-            "category": "utilities",
+            "category": "entertainment",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -227,6 +235,30 @@
                     "localizedDescription": "First release of the app!",
                     "downloadURL": "https://github.com/cranci1/Iridum/releases/download/v1.0.0/Iridum.ipa",
                     "size": 1230000,
+                    "minOSVersion": "15.0"
+                }
+            ]
+        },
+        {
+            "name": "Luna",
+            "bundleIdentifier": "me.cranci.Luna",
+            "developerName": "cranci",
+            "subtitle": "Yet another modular media player",
+            "localizedDescription": "Luna is the successor of Sora, a modular media player",
+            "version": "1.0.0",
+            "versionDate": "2026-02-22T00:30:00-04:00",
+            "versionDescription": "First official release of Luna!",
+            "downloadURL": "https://github.com/cranci1/Luna/releases/download/v1.0.0/Luna.ipa",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
+            "tintColor": "#9D00FF",
+            "category": "entertainment",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "date": "2026-02-22T00:30:00-04:00",
+                    "localizedDescription": "First official release of Luna!",
+                    "downloadURL": "https://github.com/cranci1/Luna/releases/download/v1.0.0/Luna.ipa",
+                    "size": 15500000,
                     "minOSVersion": "15.0"
                 }
             ]
@@ -242,6 +274,16 @@
             "imageURL": "https://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/appIcon.png",
             "notify": false,
             "appID": "me.cranci.SwiftyBox"
+        },
+        {
+            "title": "First Luna release!",
+            "identifier": "app_update",
+            "caption": "First official release of Luna is out!",
+            "date": "2026-02-22T10:00:00-07:00",
+            "tintColor": "#9D00FF",
+            "imageURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
+            "notify": false,
+            "appID": "me.cranci.Luna"
         }
     ]
 }
