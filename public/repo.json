@@ -226,16 +226,14 @@
     ],
     "news": [
         {
-            {
-                "title": "SwiftyBox now out!",
-                "identifier": "app_update",
-                "caption": "The first release of SwiftyBox it now out!",
-                "date": "2025-03-03T10:00:00-07:00",
-                "tintColor": "#FFA500",
-                "imageURL": "https://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/appIcon.png",
-                "notify": false,
-                "appID": "me.cranci.SwiftyBox"
-            }
+            "title": "SwiftyBox now out!",
+            "identifier": "app_update",
+            "caption": "The first release of SwiftyBox it now out!",
+            "date": "2026-03-03T10:00:00-07:00",
+            "tintColor": "#FFA500",
+            "imageURL": "https://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/appIcon.png",
+            "notify": false,
+            "appID": "me.cranci.SwiftyBox"
         }
     ]
 }
