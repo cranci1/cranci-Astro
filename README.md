@@ -11,7 +11,7 @@ This is a simple portfolio website made using Astro and Tailwind CSS, with a min
 
 ## License
 ```
-Copyright © 2024-2025 cranci. All rights reserved.
+Copyright © 2024-2026 cranci. All rights reserved.
 
 cranci-Astro is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
