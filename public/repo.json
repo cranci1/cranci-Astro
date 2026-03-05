@@ -204,7 +204,7 @@
             "iconURL": "https://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/appIcon.png",
             "tintColor": "#FFA500",
             "category": "utilities",
-            "screenshots": [
+            "screenshotURLs": [
                 "https://www.cranci.me/screenshots/screen1.png",
                 "https://www.cranci.me/screenshots/screen2.png",
                 "https://www.cranci.me/screenshots/screen3.png",
