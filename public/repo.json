@@ -199,7 +199,7 @@
             "localizedDescription": "An unofficial catbox.moe iOS client",
             "version": "1.0.1",
             "versionDate": "2026-03-09T00:30:00-04:00",
-            "versionDescription": "Added some QOL features and decreased app size"",
+            "versionDescription": "Added some QOL features and decreased app size",
             "downloadURL": "https://github.com/cranci1/SwiftyBox/releases/download/v1.0.1/SwiftyBox.ipa",
             "iconURL": "https://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/appIcon.png",
             "tintColor": "#FFA500",
@@ -207,7 +207,7 @@
             "screenshotURLs": [
                 "https://www.cranci.me/screenshots/screen1.png",
                 "https://www.cranci.me/screenshots/screen2.png",
-                "https://www.cranci.me/screenshots/screen3.png",
+                "https://www.cranci.me/screenshots/screen3.png"
             ],
             "versions": [
                 {
