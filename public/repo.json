@@ -265,6 +265,11 @@
             "iconURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
             "tintColor": "#9D00FF",
             "category": "entertainment",
+            "screenshotURLs": [
+                "https://www.cranci.me/screenshots/Luna/home.png",
+                "https://www.cranci.me/screenshots/Luna/media.png",
+                "https://www.cranci.me/screenshots/Luna/search.png"
+            ],
             "versions": [
                 {
                     "version": "1.0.0",
