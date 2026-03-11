@@ -7,7 +7,7 @@
     "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
     "tintColor": "#d0c83e",
     "featuredApps": [
-        "me.cranci.Luna",
+        "me.cranci.solar",
         "me.cranci.SwiftyBox"
     ],
     "apps": [
@@ -254,7 +254,7 @@
         },
         {
             "name": "Luna",
-            "bundleIdentifier": "me.cranci.Luna",
+            "bundleIdentifier": "me.cranci.solar",
             "developerName": "cranci",
             "subtitle": "Yet another modular media player",
             "localizedDescription": "Luna is the successor of Sora, a modular media player",
@@ -301,7 +301,7 @@
             "tintColor": "#9D00FF",
             "imageURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
             "notify": false,
-            "appID": "me.cranci.Luna"
+            "appID": "me.cranci.solar"
         }
     ]
 }
