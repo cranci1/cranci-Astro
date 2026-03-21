@@ -1,60 +1,55 @@
 {
-  "name": "cranci's repo",
-  "identifier": "cranci",
-  "subtitle": "The home of cranci's apps",
-  "description": "This repo contains apps, such as Sora, that were developed by me, cranci.",
-  "website": "https://github.com/cranci1",
-  "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
-  "tintColor": "#d0c83e",
-  "featuredApps": [
-      "me.cranci.sulfur"
-  ],
-  "apps": [
-    {
-      "name": "Sora",
-      "bundleIdentifier": "me.cranci.sulfur",
-      "developerName": "cranci",
-      "subtitle": "Sora is a modular web scraping application designed to work exclusively with custom modules, seamlessly integrated with media trackers like AniList.",
-      "localizedDescription": "Sora is a modular web scraping application designed to work exclusively with custom modules, seamlessly integrated with media trackers like AniList. It allows users to create and share modules for various websites, enabling them to scrape data and automate tasks. Sora is built on the JScore framework, which provides a powerful and flexible environment for module development. The app is designed to be user-friendly and accessible, making it easy for anyone to create their own modules without any programming knowledge.",
-
-      "beta": false,
-      "version": "0.2.3",
-      "versionDate": "2025-05-010T00:30:00-04:00",
-      "versionDescription": "Version 0.2.3 only includes crash fixes",
-      "iconURL": "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/Sora/Assets.xcassets/AppIcon.appiconset/darkmode.png",
-      "tintColor": "#ff9500",
-      "category": "entertainment",
-      "marketplaceID": "6742741043",
-
-      "screenshots": [
-        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-1.png",
-        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-2.png",
-        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-3.png",
-        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-4.png"
-      ],
-      "versions": [
+    "name": "cranci's repo",
+    "identifier": "cranci",
+    "subtitle": "A full repo with all my apps",
+    "description": "This repo contains all the app that I have have been able to publish on AltStore PAL.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
+    "website": "https://github.com/cranci1",
+    "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
+    "tintColor": "#d0c83e",
+    "featuredApps": [
+        "me.cranci.sigma6741"
+    ],
+    "apps": [
         {
-          "version": "0.2.3",
-          "buildVersion": "45",
-          "date": "2025-05-10T00:30:00-04:00",
-          "localizedDescription": "Version 0.2.3 only includes crash fixes",
-          "downloadURL": "https://cranci.me/ADP/",
-          "size": 1120000,
-          "minOSVersion": "15.0"
+            "name": "Luna",
+            "bundleIdentifier": "me.cranci.sigma6741",
+            "developerName": "cranci",
+            "subtitle": "Yet another modular media player",
+            "localizedDescription": "Luna is the successor of Sora, a modular media player",
+            "version": "1.0.0",
+            "versionDate": "2026-03-19T00:30:00-04:00",
+            "versionDescription": "First official release of Luna!",
+            "downloadURL": "https://github.com/cranci1/Luna/releases/download/v1.0.0/Luna.ipa",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
+            "tintColor": "#9D00FF",
+            "category": "entertainment",
+            "screenshotURLs": [
+                "https://www.cranci.me/screenshots/Luna/home.png",
+                "https://www.cranci.me/screenshots/Luna/media.png",
+                "https://www.cranci.me/screenshots/Luna/search.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "date": "2026-03-19T00:30:00-04:00",
+                    "localizedDescription": "First official release of Luna!",
+                    "downloadURL": "https://github.com/cranci1/Luna/releases/download/v1.0.0/Luna.ipa",
+                    "size": 15500000,
+                    "minOSVersion": "15.0"
+                }
+            ]
         }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.app-sandbox",
-          "com.apple.security.network.client"
-        ],
-        "privacy": {
-          "NSAppTransportSecurity": "Allows arbitrary loads for network requests.",
-          "UIBackgroundModes": "Supports audio and processing in the background.",
-          "UISupportsDocumentBrowser": "Allows document browsing."
+    ],
+    "news": [
+        {
+            "title": "First Luna release!",
+            "identifier": "app_update",
+            "caption": "First official release of Luna is out on AltStore PAL!",
+            "date": "2026-03-19T10:00:00-07:00",
+            "tintColor": "#9D00FF",
+            "imageURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
+            "notify": false,
+            "appID": "me.cranci.sigms6741"
         }
-      }
-    }
-  ],
-  "news": []
+    ]
 }
