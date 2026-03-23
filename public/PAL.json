@@ -1,55 +1,59 @@
 {
-    "name": "cranci's repo",
-    "identifier": "cranci",
-    "subtitle": "A full repo with all my apps",
-    "description": "This repo contains all the app that I have have been able to publish on AltStore PAL.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
-    "website": "https://github.com/cranci1",
-    "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
-    "tintColor": "#d0c83e",
-    "featuredApps": [
-        "me.cranci.sigma6741"
-    ],
-    "apps": [
+  "name": "cranci's repo",
+  "subtitle": "A full repo with all my apps",
+  "description": "This repo contains all the app that I have have been able to publish on AltStore PAL.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
+  "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
+  "website": "https://github.com/cranci1",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#FFED29",
+  "featuredApps": [
+    "me.cranci.sigma6741"
+  ],
+  "apps": [
+    {
+      "name": "Luna",
+      "bundleIdentifier": "me.cranci.sigma6741",
+      "marketplaceID": "6760672349",
+      "developerName": "cranci",
+      "subtitle": "Yet another modular media player",
+      "localizedDescription": "Luna is the successor of Sora, a modular media player",
+      "iconURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
+      "tintColor": "#9D00FF",
+      "category": "entertainment",
+      "screenshots": [
+        "https://www.cranci.me/screenshots/Luna/home.png",
+        "https://www.cranci.me/screenshots/Luna/media.png",
+        "https://www.cranci.me/screenshots/Luna/search.png"
+      ],
+      "versions": [
         {
-            "name": "Luna",
-            "bundleIdentifier": "me.cranci.sigma6741",
-            "developerName": "cranci",
-            "subtitle": "Yet another modular media player",
-            "localizedDescription": "Luna is the successor of Sora, a modular media player",
-            "version": "1.0.0",
-            "versionDate": "2026-03-19T00:30:00-04:00",
-            "versionDescription": "First official release of Luna!",
-            "downloadURL": "https://github.com/cranci1/Luna/releases/download/v1.0.0/Luna.ipa",
-            "iconURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
-            "tintColor": "#9D00FF",
-            "category": "entertainment",
-            "screenshotURLs": [
-                "https://www.cranci.me/screenshots/Luna/home.png",
-                "https://www.cranci.me/screenshots/Luna/media.png",
-                "https://www.cranci.me/screenshots/Luna/search.png"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "date": "2026-03-19T00:30:00-04:00",
-                    "localizedDescription": "First official release of Luna!",
-                    "downloadURL": "https://github.com/cranci1/Luna/releases/download/v1.0.0/Luna.ipa",
-                    "size": 15500000,
-                    "minOSVersion": "15.0"
-                }
-            ]
+          "version": "1.0.0",
+          "date": "2026-03-23T17:00:00+01:00",
+          "localizedDescription": "First official release of Luna on AltStore PAL!!",
+          "downloadURL": "https://www.cranci.me/Luna/ADP",
+          "size": 15500000,
+          "buildVersion": "1",
+          "minOSVersion": "15.0"
         }
-    ],
-    "news": [
-        {
-            "title": "First Luna release!",
-            "identifier": "app_update",
-            "caption": "First official release of Luna is out on AltStore PAL!",
-            "date": "2026-03-19T10:00:00-07:00",
-            "tintColor": "#9D00FF",
-            "imageURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
-            "notify": false,
-            "appID": "me.cranci.sigms6741"
-        }
-    ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    }
+  ],
+  "news": [
+    {
+      "title": "First Luna release!",
+      "identifier": "app_update",
+      "caption": "First official release of Luna is out on AltStore PAL!",
+      "date": "2026-03-19T18:00",
+      "tintColor": "#9D00FF",
+      "imageURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
+      "notify": false,
+      "url": "https://example.com/new_feature_details",
+      "appID": "me.cranci.sigms6741"
+    }
+  ]
 }
