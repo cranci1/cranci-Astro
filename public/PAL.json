@@ -49,8 +49,7 @@
       "date": "2026-03-19T18:00",
       "tintColor": "#9D00FF",
       "imageURL": "https://raw.githubusercontent.com/cranci1/Luna/refs/heads/main/Luna/Assets.xcassets/AppIcon.appiconset/Default.png",
-      "notify": false,
-      "url": "https://example.com/new_feature_details",
+      "notify": false
       "appID": "me.cranci.sigms6741"
     }
   ]
