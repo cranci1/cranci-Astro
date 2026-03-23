@@ -3,9 +3,8 @@
   "subtitle": "A full repo with all my apps",
   "description": "This repo contains all the app that I have have been able to publish on AltStore PAL.\n\nYou can find the source code of each app on my Github Account: https://github.com/cranci1",
   "iconURL": "https://avatars.githubusercontent.com/u/100066266?s=400&u=ad62b77c19d91e41c071ab5f3158056db558a998&v=4",
-  "website": "https://github.com/cranci1",
-  "patreonURL": "https://patreon.com/altstudio",
-  "tintColor": "#FFED29",
+  "website": "https://github.com/cranci1"
+  "tintColor": "#E6D225",
   "featuredApps": [
     "me.cranci.sigma6741"
   ],
@@ -39,8 +38,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
-      "patreon": {}
+      }
     }
   ],
   "news": [
