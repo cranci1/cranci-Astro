@@ -201,7 +201,7 @@
             "versionDate": "2026-03-09T00:30:00-04:00",
             "versionDescription": "Added some QOL features and decreased app size",
             "downloadURL": "https://github.com/cranci1/SwiftyBox/releases/download/v1.0.1/SwiftyBox.ipa",
-            "iconURL": "hhttps://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/darkmode.png",
+            "iconURL": "https://raw.githubusercontent.com/cranci1/SwiftyBox/refs/heads/main/SwiftyBox/Assets.xcassets/AppIcon.appiconset/darkmode.png",
             "tintColor": "#FFA500",
             "category": "utilities",
             "screenshotURLs": [
