@@ -4,9 +4,11 @@ import Analytics from '@vercel/analytics/astro'
 
 const GITHUB_TARGETS = [
     { user: "cranci1", repo: "Sora" },
-    { user: "cranci1", repo: "SwiftyBox" },
     { user: "cranci1", repo: "AnimeGen" },
+    { user: "cranci1", repo: "SwiftyBox" },
+    { user: "cranci1", repo: "Sybau" },
     { user: "cranci1", repo: "cranci-Astro" },
+    { user: "cranci1", repo: "Upload-Labs-Mods" },
 ];
 
 const fetchRepoDetails = async (user: string, repo: string) => {
@@ -62,9 +64,8 @@ const projects = await Promise.all(
             </div>
             <p class="text-gray-300">
                 I'm a 17 years old boy from Italy that loves creating iOS apps
-                using swift. So far my favorite thing is to scrape informations
-                from sites, mostly streaming sites. Other than swift I've learned
-                Javascript (to build Sora modules), some Java and of course python.
+                using swift. In my free time i like watching shows and films.
+                My most used languages are Swift, Java, Python.
             </p>
         </header>
         <section>
@@ -130,8 +131,7 @@ const projects = await Promise.all(
                             </a>
                         ))
                     }
-                </div>            
-                <p class="text-gray-300 text-xs mt-2 mr-2 ml-2 text-center">R.I.P. Ryu, (June 2024 - December 2024), taken down by Crunchyroll with a DMCA.</p>
+                </div>
         </section>
         <footer class="text-center text-gray-500 text-xs mt-2">
             <p>This site is under the <a href="https://github.com/cranci1/cranci.xyz-Astro/blob/master/LICENSE" target="_blank" class="text-gradient">GPLv3.0</a> License, made with love by cranci</p>
